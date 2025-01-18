@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}História}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Origens}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tempo de guerra}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Viagens}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Fundador e profeta}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Graças e milagres}{3}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Veneração}{4}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Oração}{4}{section.2}%
