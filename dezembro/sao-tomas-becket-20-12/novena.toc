@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}História}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Origens}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Chanceler}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}A Ordenação e uma nova vida}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}O Pedido de Demissão}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}A Perseguição}{3}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Inglaterra}{3}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Páscoa}{4}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Via de Santificação}{4}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Orações}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Oração Inicial}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Oração Final}{5}{subsection.2.2}%

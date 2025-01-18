@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}História}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}A beleza de divina}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}O contato com os cristãos}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Santa Bárbara e as perseguições}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}A sentença de morte de Santa Bárbara}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Bárbara e os raios}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Devoção à Santa Bárbara}{5}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Orações}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Oração a Santa Bárbara}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Créditos:}{6}{subsection.2.2}%

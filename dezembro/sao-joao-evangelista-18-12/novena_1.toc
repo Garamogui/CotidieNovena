@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}História}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Defensor dos fracos}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Protetor dos navegantes}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}São Nicolau de Bari}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Santa Klaus}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Orações}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Oração Inicial}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Dia 1}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Dia 2}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Dia 3}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Dia 4}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Dia 5}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Dia 6}{9}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Dia 7}{9}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Dia 8}{9}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Dia 9}{10}{subsection.2.10}%
