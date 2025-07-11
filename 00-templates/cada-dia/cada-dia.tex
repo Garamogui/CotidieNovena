@@ -1,0 +1,80 @@
+% === Template 1 (ajustado para TOC completo) ===
+\documentclass[18pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage{caladea}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\author{Adaptado de publicação revisada}
+\date{} % data fixa ou móvel, se desejar
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LO, CE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{<Nome do Santo>}}
+}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\contentsname}{Sumário}
+
+\begin{document}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+\section*{Vida / Origem da Novena}
+\addcontentsline{toc}{section}{Vida / Origem da Novena}
+\begin{justify}
+  % Aqui você conta a vida ou origem da devoção
+  [Escreva aqui uma breve biografia ou origem da novena.]
+\end{justify}
+
+% --- Oração Inicial (opcional) ---
+\newpage
+\section*{Oração Inicial}
+\addcontentsline{toc}{section}{Oração Inicial}
+\begin{justify}
+  % Texto da oração inicial, se houver
+  [Insira aqui a oração que abre a novena.]
+\end{justify}
+
+% --- Orações Diárias ---
+\newpage
+\section{Novena a \textbf{<Nome do Santo>}}
+% seção já numerada, entra automaticamente no TOC
+\begin{justify}
+
+% Dia 1
+\subsection{Dia 1}
+[Insira aqui a oração específica do Dia 1.]
+
+% Dia 2
+\subsection{Dia 2}
+[Insira aqui a oração específica do Dia 2.]
+
+% …
+
+% Dia 9
+\subsection{Dia 9}
+[Insira aqui a oração específica do Dia 9.]
+
+\end{justify}
+
+% --- Oração Final ---
+\newpage
+\section*{Oração Final}
+\addcontentsline{toc}{section}{Oração Final}
+\begin{justify}
+  % Oração de encerramento
+  [Insira aqui a oração final, ex.: Pai-Nosso, Ave-Maria e Glória.]
+\end{justify}
+
+\end{document}

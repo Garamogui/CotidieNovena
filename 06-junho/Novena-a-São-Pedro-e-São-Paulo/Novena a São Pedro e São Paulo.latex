@@ -1,0 +1,143 @@
+\documentclass[18pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ragged2e}
+\usepackage{caladea}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage{epigraph}
+\usepackage[normalem]{ulem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\makeatletter
+% definição do símbolo (a “barrinha” inclinada)
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+
+\date{Data móvel: sexta-feira após a oitava de Corpus Christi}
+\author{Adaptado de publicação revisada}
+
+\renewcommand{\contentsname}{Sumário}
+
+\begin{document}
+
+\tableofcontents
+
+\thispagestyle{empty}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LO, CE]{
+\includegraphics[scale=0.2]{./assets/cross.png} São Pedro e São Paulo, rogai por nós!
+}
+\fancyfoot[R]{\thepage}
+
+
+\centering
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Introdução %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{justify}
+  \begin{center}
+    \section{São Pedro e São Paulo}
+  \end{center}
+
+A tradição da Igreja sempre celebrou São Pedro e São Paulo no mesmo dia. Em um sermão em 395 d.C., Santo Agostinho de Hipona declarou:
+
+"Ambos os apóstolos compartilham o mesmo dia de festa, pois esses dois eram um só; e mesmo que tenham sofrido em dias diferentes, eles eram um só. Pedro foi o primeiro, e Paulo o seguiu. Assim, celebramos esse dia que se tornou sagrado para nós pelo sangue dos apóstolos. Vamos abraçar o que eles acreditavam, sua vida, seus trabalhos, seus sofrimentos, sua pregação e sua confissão de fé."
+
+Esses dois homens são exemplos fenomenais de homens pecadores que mudaram suas vidas por Cristo. Mesmo quando seguia a Cristo, Pedro demonstrou medo e dúvida, mas sempre permaneceu como a rocha de Cristo. E a história da conversão de Paulo e os ensinamentos subsequentes mostram o verdadeiro poder de Deus. Esses homens não estavam isentos de falhas, mas sua fé e seu amor por Cristo servem como exemplo perfeito de como devemos viver nossas vidas hoje.
+
+
+\begin{center}
+  \subsection{Sobre São Pedro e São Paulo}
+\end{center}
+
+São Pedro foi um dos 12 discípulos escolhidos por Jesus. Irmão de Santo André, Pedro tornou-se o líder dos apóstolos e o primeiro papa da Igreja Católica. Pescador por profissão, Pedro foi chamado por Cristo para ser um “pescador de homens”. Pedro passou três anos na companhia de Cristo, ministrando às pessoas, aprendendo e testemunhando Seus milagres. Depois que Cristo morreu, Pedro passou o resto de sua vida ensinando sobre Ele. Todo o medo que ele sentiu ao negar Cristo foi eliminado após o Pentecostes, quando o Espírito Santo soprou sobre os apóstolos, dando-lhes a coragem necessária para sair pelo mundo e ensinar. Em 64 d.C., Pedro foi preso e crucificado de cabeça para baixo. Ele pediu essa posição porque não se sentia digno do mesmo tipo de crucificação que Cristo.
+
+São Paulo nasceu como um fariseu judeu chamado Saulo. Ele temia tanto os ensinamentos de Cristo que perseguia incessantemente os cristãos. Um dia, a caminho de Damasco, uma luz ofuscante derrubou Saulo de seu cavalo e o cegou. Uma voz gritou: “Saulo, por que você está me perseguindo?” Quando Saulo perguntou quem ele era, a voz respondeu: “Eu sou Jesus, a quem você está perseguindo”. Saulo se converteu e mudou seu nome para Paulo. Ele passou o resto de sua vida viajando, ensinando as boas novas de Cristo, estabelecendo igrejas e escrevendo cartas explicando a fé. Em 67 d.C., ele foi preso e decapitado por se recusar a negar Cristo.
+
+
+\begin{center}
+  \subsection{Por que rezar a novena?}
+\end{center}
+
+São Pedro é o patrono dos pescadores, dos fabricantes de redes e dos construtores de navios, enquanto São Paulo é o patrono dos autores, da imprensa, das editoras e dos escritores. Você pode orar por intercessão deles por qualquer coisa, mas especialmente por orientação para seguir os ensinamentos de Cristo, por ajuda para conduzir alguém à fé ou por coragem quando enfrentar oposição.
+
+
+\end{justify}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Oração Inicial %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\begin{justify}
+
+\begin{center}
+  \section{Oração Inicial}\label{sec:OraçãoInicial}
+\end{center}
+
+
+Ó santos Apóstolos, Pedro e Paulo, eu os escolho neste dia e para sempre para serem meus patronos e advogados especiais; tu, São Pedro, Príncipe dos Apóstolos, porque és a Rocha sobre a qual Deus Todo-Poderoso edificou Sua Igreja; tu, São Paulo, porque foste escolhido por Deus como o Vaso da eleição e o Pregador da verdade em todo o mundo.
+
+Obtenha para mim, eu lhe peço, fé viva, esperança firme e amor ardente; completo desapego de mim mesmo, desprezo do mundo, paciência na adversidade, humildade na prosperidade, atenção na oração, pureza de coração, uma intenção correta em todas as minhas obras, diligência no cumprimento dos deveres de meu estado de vida, constância em minhas resoluções, resignação à vontade de Deus e perseverança na graça de Deus até a morte; para que, por meio de sua intercessão e de seus gloriosos méritos, eu possa vencer as tentações do mundo, da carne e do demônio, e seja digno de comparecer diante do principal e eterno Pastor de almas, Jesus Cristo, que com o Pai e o Espírito Santo vive e reina por séculos sem fim, para desfrutar de Sua presença e amá-Lo para sempre.
+
+\end{justify}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Novena - Dias %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Oração Final %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+  \section{Oração Final} \label{sec:OraçãoFinal}
+
+  \textbf{Pai-Nosso, Ave-Maria e Glória}
+
+\begin{verse}
+  \versicle. Tu os farás príncipes sobre toda a terra.\\
+  \response. Eles se lembrarão do Teu nome, Senhor.
+\end{verse}
+
+
+\end{center}
+
+
+
+\begin{justify}
+
+
+Ó Deus, cuja mão direita levantou o bem-aventurado Pedro, quando ele andava sobre as águas e começou a afundar, e três vezes livrou seu companheiro apóstolo Paulo das profundezas do mar, quando ele sofreu um naufrágio: graciosamente nos ouça e conceda, pelos méritos de ambos, que nós também possamos alcançar a glória eterna: Que vive e reina no mundo sem fim. Amém
+
+\end{justify}
+
+\vfill
+
+Créditos: Adaptado de publicação revisada, disponível em \url{https://catholicnovenaapp.com/novenas/st-peter-and-paul-novena/} \\  \url{https://www.praymorenovenas.com/novena-to-saints-peter-and-paul}.
+
+\end{document}
