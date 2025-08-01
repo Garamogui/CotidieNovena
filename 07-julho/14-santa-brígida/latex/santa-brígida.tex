@@ -1,0 +1,297 @@
+\documentclass[a4paper,12pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Santa Brígida}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\renewcommand{\contentsname}{Sumário}
+
+\begin{document}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{Vida / Origem da Novena}
+
+\subsection{Quem foi Santa Brígida?}
+
+Santa Brígida de Suécia (1303-1373) foi uma mística, mãe, esposa e fundadora da Ordem do Santíssimo Salvador, mais conhecida como a Ordem de Santa Brígida. Nascida em uma família nobre sueca, dedicou sua vida à fé cristã desde a infância, influenciada pela profunda religiosidade de seus pais. Casou-se jovem, a pedido de seu pai, e teve oito filhos, vivendo um casamento feliz marcado pela fé e pela caridade. Após a morte de seu marido, Brígida intensificou sua vida espiritual, dedicando-se a peregrinações, obras de caridade e à fundação de sua ordem religiosa, que combinava a vida monástica de homens e mulheres sob a liderança de uma abadessa.
+
+Santa Brígida é amplamente reconhecida por suas visões místicas e revelações divinas, documentadas em sua obra “As Revelações de Santa Brígida”. Essas visões abordam especialmente os sofrimentos de Jesus na cruz e, ainda hoje, auxiliam os cristãos a meditar sobre a Paixão de Cristo.
+
+\subsection{A vida de Santa Brígida}
+
+Santa Brígida é um grande exemplo para as mulheres de qualquer época, sendo modelo de mulher, esposa e mãe. Sua vida é uma inspiração tanto para aquelas chamadas à vida consagrada quanto para as que vivem as ocupações laicais e a exigente vocação de formar uma família cristã.
+
+
+\subsection{Nascimento e infância}
+
+Santa Brígida nasceu em 1303, na vila de Finsta, na Suécia. Filha de nobres, Brígida era a oitava de treze filhos, e desde cedo, sua vida foi imersa na fé cristã. Seus pais, Birger Persson e Ingeborg, eram conhecidos tanto por sua piedade quanto por sua posição social. Com a própria fortuna, a família de Brígida, muito piedosa, construiu para a Igreja mosteiros, igrejas e hospitais. A santa cresceu em um ambiente de profunda religiosidade, o que certamente moldou seu coração e seu espírito desde a tenra idade.
+
+Desde menina, Brígida demonstrava uma sensibilidade extraordinária para as coisas de Deus. Ela tinha uma compaixão incomum pelos necessitados, dedicando seu tempo a ajudar os pobres e enfermos. Seu coração, desde então, estava voltado para a caridade e para o serviço aos outros, qualidades que se tornariam pilares de sua vida espiritual.
+
+A atmosfera religiosa intensa em que cresceu moldou profundamente sua fé. Deus já traçava um caminho especial para ela, desde os primeiros anos de sua vida: aos sete anos, teve sua primeira visão mística, preparando-a para a missão que viria a realizar. Ela também desenvolveu uma profunda devoção a Cristo desde a infância, que se fortaleceu ao longo dos anos, levando-a a abraçar uma vida de oração e contemplação.
+
+\subsection{Casamento}
+
+Santa Brígida possuía um caráter decisivo e forte desde criança e sentia-se muito inclinada à vida religiosa. Mas, a pedido de seu pai, aceitou casar-se com o governador de um distrito importante do Reino da Suécia, chamado Ulf. Brígida dedicou-se muito, e os dois viveram um casamento feliz. O casal teve oito filhos, entre eles, Catarina da Suécia, que também tornou-se santa. Os dois também fundaram um pequeno hospital, onde assistiam os enfermos com frequência. 1
+
+Ela foi um grande exemplo de mãe que educou os seus filhos, ensinando-lhes as Escrituras e a Doutrina da Fé. Tamanha era sua sabedoria e seu conhecimento que foi convocada pelo rei da Suécia para instruir a jovem rainha à cultura sueca. 
+
+Com o tempo, Brígida foi também transformando o coração do seu esposo. Depois dos filhos já criados, ele foi aos poucos tornando-se um marido devoto e cristão. Certa vez, ambos fizeram uma peregrinação a Santiago de Compostela e, depois disso, decidiram consagrar-se a Deus por meio do celibato. Mas logo o esposo adoeceu e, após 20 anos de casamento, faleceu, abrindo assim outro capítulo na vida de Santa Brígida, que dedicou a sua viuvez consagrando-se a Deus.
+
+\subsection{Ordem de Santa Brígida}
+
+Após a morte de seu marido, Ulf Gudmarsson, Santa Brígida dedicou-se inteiramente à vida religiosa e à caridade. Em 1346, impulsionada por visões divinas e por um profundo desejo de reformar a vida monástica, Brígida fundou a Ordem do Santíssimo Salvador, mais conhecida como a Ordem de Santa Brígida. A fundação dessa ordem foi um marco significativo na vida da santa e na história da Igreja.
+
+A Ordem de Santa Brígida tinha um caráter duplo, sendo composta por um convento de monges e um mosteiro de monjas, vivendo em comunidades próximas, mas separadas. A regra da ordem destacava uma vida de oração, pobreza e trabalho, com um foco especial na devoção à Paixão de Cristo e à Virgem Maria. A estrutura da ordem permitia que homens e mulheres servissem a Deus de maneira complementar. Enquanto as freiras permaneciam enclausuradas, estudando, os monges, além disso, eram pregadores e missionários itinerantes.
+
+As freiras, que vestiam hábitos simples de lã marrom, eram facilmente identificadas pela coroa de metal que usavam, chamada de “Coroa das Cinco Chagas”. Esta coroa possuía cinco pedras vermelhas, simbolizando as Cinco Chagas de Cristo na cruz. Os monges, por sua vez, usavam um hábito com uma cruz vermelha adornada com a hóstia eucarística no centro, localizada no lado direito do peito.
+
+Brígida escolheu Vadstena, na Suécia, como o local para o primeiro mosteiro da ordem, atraindo muitos fiéis e pessoas desejosas de uma vida mais devota. A ordem cresceu rapidamente, com a aprovação do Papa Urbano V em 1370, e expandiu-se para outros países europeus, difundindo o carisma e os ensinamentos de Santa Brígida.
+Morte de Santa Brígida
+
+    Santa Brígida passou os últimos anos de sua vida em Roma, onde dedicou-se intensamente a peregrinações, orações e obras de caridade. Em 1371, ela realizou uma peregrinação à Terra Santa, uma jornada repleta de devoção e sacrifício. Esta viagem, embora espiritual e enriquecedora, afetou significativamente sua saúde já fragilizada, pois ela já tinha 70 anos.
+    O ponto central da sua experiência de fé foi a Paixão de Cristo, como também a Virgem Maria. Testemunhas disso foram o “Rosário Brigidino” e as orações, ligadas às graças particulares prometidas, por Jesus a ela, para quem os praticasse. 2
+
+Em 1373, Brígida retornou a Roma, sentindo-se cada vez mais fraca. Mas, apesar de seu estado debilitado, continuou firme em sua fé e devoção, sustentada pelas visões e mensagens que recebia de Deus. No dia 23 de julho de 1373, após uma vida de serviço incansável a Deus e à humanidade, Brígida faleceu em paz, rodeada por sua família e seus seguidores.
+
+O corpo de Santa Brígida foi sepultado provisoriamente na igreja romana de São Lourenço, mas depois seus filhos transladaram-na de volta para a sua pátria, no mosteiro de Vadstena, que ela mesma havia fundado. 1 Vadstena tornou-se um centro de peregrinação, onde muitos fiéis iam rezar pedindo a intercessão junto à santa.
+Canonização, devoção e legado de Santa Brígida
+
+Santa Brígida foi canonizada em 7 de outubro de 1391 pelo Papa Bonifácio IX, apenas dezoito anos após sua morte. Essa rápida canonização refletiu o profundo impacto que sua vida e suas obras tiveram na Igreja e entre os fiéis. Reconhecida por suas visões místicas e sua devoção fervorosa, Brígida tornou-se uma das figuras mais reverenciadas do seu tempo e uma santa de grande influência.
+
+A devoção a Santa Brígida é especialmente forte na Suécia, sua terra natal, e em muitos países europeus, onde a Ordem de Santa Brígida se espalhou e floresceu. Vadstena, o local do mosteiro que ela fundou, tornou-se um importante centro de peregrinação. Além disso, sua influência se estende a vários outros países, onde igrejas e comunidades religiosas são dedicadas à ela.
+Abadia de Vadstena, na Suécia.
+
+\subsection{Santa Brígida, Padroeira da Europa}
+
+Santa Brígida é padroeira da Suécia e co-padroeira da Europa, título concedido pelo Papa João Paulo II em 1999, juntamente com Santa Catarina de Sena e Santa Teresa Benedita da Cruz (Edith Stein). Este reconhecimento ressalta a importância de sua contribuição espiritual e cultural para a Igreja, assim como para o continente europeu.
+
+Santa Brígida é um exemplo de vida cristã que transcendeu as fronteiras de sua Suécia natal, impactando toda a Europa através de suas visões místicas, seus escritos e a fundação da Ordem do Santíssimo Salvador, mais conhecida como a Ordem de Santa Brígida. Sua vida de oração intensa, bem como sua caridade, e seus esforços incansáveis pela reforma espiritual e moral da Igreja e da sociedade europeia a tornam um modelo de santidade e devoção para todos os cristãos.
+
+\subsection{Visões de Santa Brígida}
+
+Santa Brígida de Suécia é famosa por suas visões místicas, especialmente aquelas relacionadas aos sofrimentos de Cristo durante a Paixão. Entre suas muitas revelações, destacam-se as Quinze Orações, que são meditações piedosas sobre os mistérios da Paixão e Morte de Cristo. Embora estas orações sejam populares desde a Baixa Idade Média e atribuídas a Santa Brígida, acredita-se que foram compostas por místicos de sua ordem no século XV. Elas servem tanto para instruir os fiéis sobre os episódios mais importantes da vida de Jesus quanto para inspirar arrependimento e amor a Deus.
+Santa Brígida aos pés de Nosso Senhor crucificado.
+
+A popularidade dessas orações aumentou devido à lista de promessas supostamente reveladas a Santa Brígida durante uma visita à Basílica de São Paulo Fora dos Muros, em Roma. Entre essas promessas estão a libertação de quinze almas do Purgatório e a conversão de quinze pecadores da família de quem recitar essas orações diariamente por um ano. No entanto, não há evidências de que essas promessas foram feitas diretamente a Santa Brígida, além disso, elas não possuem aprovação eclesiástica.
+
+  Na Carta Apostólica Spes Aedificandi, de São João Paulo II, para a proclamação de Santa Brígida e outras santas, lemos que
+
+  \begin{quote}
+    \textcolor{gray}{Alguns aspectos da extraordinária produção mística suscitaram, com o passar do tempo, compreensíveis interrogações, a propósito das quais a prudência eclesial realizou um discernimento eclesial, remetendo-se à única revelação pública, que tem em Cristo a sua plenitude e na Sagrada Escritura a sua expressão normativa. De facto, também as importantes experiências dos grandes santos não estão isentas dos limites que sempre acompanham a recepção humana da voz de Deus. No entanto, não há dúvida que a Igreja, ao reconhecer a santidade de Brígida, mesmo sem se pronunciar sobre cada uma das revelações, acolheu a autenticidade do conjunto da sua experiência interior.}
+  \end{quote}
+
+
+\section{Oração Inicial} \label{oracao-inicial}
+
+\subsection{Ato de contrição}
+
+Senhor meu Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor meu, [...] 
+
+\subsection{Oração}
+
+Gloriosa princesa e Mãe Santa Brígida, modelo perfeitíssimo de todas as mulheres [...] 
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena em Honra de Santa Brígida}
+
+\subsection{Primeiro Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Fé de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa princesa e Mãe Santa Brígida, que foi ilustrada desde seus tenros anos com uma fé vivíssima nos mistérios que devemos crer e vos serviu de oráculo celestial, por onde inspiráveis muitos mistérios e verdades de nossa santa fé aos Reis, Bispos e Sumos Pontífices: suplico-vos, Jesus meu, pela esclarecida fé desta nobilíssima esposa vossa, me concedais uma fé viva, que governe todas as ações de meu espírito e a graça que vos peço nesta novena, se for para maior glória de Deus e bem de minha alma. Amém.
+
+Rezar três Pai-Nossos e três Ave-Marias em reverência à Santíssima Trindade, de quem a Santa foi devotíssima e de quem recebeu singulares favores.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Segundo Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Esperança de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, que abraçada com uma firmíssima esperança empreendeu longas peregrinações por mar e terra, entre trabalhos e riscos da vida, insuportáveis a outro espírito menos gigante ou que não estivesse animado de heróica esperança em um Deus onipotente; suplico-vos, Jesus meu, pela esperança desta amabilíssima esposa vossa, me concedais uma esperança certa de vencer quantos trabalhos e dificuldades possam desafiar minha perfeição e salvação eterna e a graça que vos peço, nesta novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Terceiro Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Amor a Deus de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, que viveu tão abrasada nos incêndios de Vosso amor, sem outro abrigo resistia os rigorosos frios da Suécia, de sorte que não causava em seu corpo penitente e delicado as destempladas impressões daquele clima gelado: suplico-vos, Jesus meu, me concedais, pelo amor desta nobilíssima Esposa vossa, um amor à vossa Majestade, tão inflamado que abrase meu espírito e penetre todo meu coração, de sorte que não possam esfriá-lo as destempladas misérias do mundo e me sirva contra a frieza de minhas culpas e tibiezas, assim como também a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Quarto Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Amor ao Próximo de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, cujo ardente amor ao próximo e zelo da salvação das almas mostram os inúmeros trabalhos que padeceu, os cuidados que empregou com quantos podia contribuir para este santo fim e a ordem Santíssima que fundou para formar nela varões Apostólicos e mulheres que aspirassem a ser espíritos seráficos: suplico-vos, Jesus meu, me concedais, por este ardente zelo de vossa Nobilíssima Esposa, um amor ao meu próximo tão perfeito, que procure a salvação de todos com minhas orações, solicitude e exemplo e também a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Quinto Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Paciência de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, a quem adornastes com uma paciência invicta nos muitos trabalhos a que a expôs a variedade de estados em que a quis perfeitíssimo exemplar vossa Providência, já que a guiou, sendo já religiosa, vosso Soberano Espírito, inspirando as longas peregrinações e negócios árduos sobre o estado e sexo de uma mulher: suplico-vos, Jesus meu, pela invencível paciência desta nobilíssima Esposa vossa, uma paciência constante, que me fortaleça nas penalidades desta vida e combates interiores de meu espírito e a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Sexto Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Humildade de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, que mesmo entre as grandezas de seu palácio se humilhava e se abatia até os pés dos pobres, lavando-os e beijando-os com profundíssima humildade, após lhes servir a comida que preparava como se fosse escrava dos mendigos mais desvalidos: suplico-vos, Jesus meu, me concedais, pela humildade desta nobilíssima Esposa Vossa, uma humildade sólida e sincera, que me faça praticar os ofícios humildes de meu estado e mais próprios de verdadeiro servo de Jesus Cristo e a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Sétimo Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Oração de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa e Mãe Santa Brígida a quem favorecestes com o dom de uma oração altíssima desde os anos de sua discrição terna por todos os estados de sua vida, e nos últimos de viúva a elevastes a uma contemplação sublime, em que descobriu maravilhosos segredos, com portentosas revelações, aprovadas para maior segurança pelos Concílios de Constança e de Basileia: suplico-vos, Jesus meu, me concedais, por esta perfeita oração de vossa nobilíssima Esposa, o dom de uma oração perfeita no grau que me convém para minha salvação eterna, e a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Oitavo Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Penitência de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, que com assombro poucas vezes visto nos palácios, exercitou entre as delícias que lisonjeiam e agradam a delicadeza de uma princesa ilustre, os rigores das penitências mais ásperas que se admiram nos anacoretas dos desertos e sendo Mãe das Religiosas, serviu, com suas mortificações, de admiração e exemplo às suas filhas: suplico-vos, Jesus meu, me concedais pela rigorosa penitência desta nobilíssima Esposa Vossa, que eu trate meu corpo com os rigores que merecem minhas culpas, sem me desculpar com o pretexto da idade, estado, sexo ou delicadeza e a graça que vos peço nesta Novena, se for para maior graça de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+
+\subsection{Nono Dia}
+
+\noindent
+\textbf{Começar com a \nameref{oracao-inicial}.}
+
+\subsubsection*{Devoção a Maria Santíssima de Santa Brígida}
+
+Jesus meu dulcíssimo, Esposo Divino da gloriosa Princesa Mãe Santa Brígida, que sendo menina mereceu ver vossa Santíssima Mãe, que vestida de glória, a chamava e lhe oferecia a celestial coroa que na mão levava e ao fim lhe fazia o inestimável favor de coroá-la com ela e depois, no resto de sua vida, recebeu frequentes visitas e singulares presentes desta benigníssima Mãe de almas puras: suplico-vos, Jesus meu, me concedais, pela fervorosa devoção desta nobilíssima esposa vossa, à vossa Santíssima Mãe, que eu seja tão verdadeiro e solidamente devoto de Nossa Mãe Puríssima, que mereça ser coroado por sua Majestade no céu com a imortal coroa da glória de Deus e bem de minha alma. Amém.
+
+\noindent
+\textbf{Finalizar com a \nameref{oracao-final}.}
+
+% --- Oração Final ---
+\newpage
+\section{Oração Final} \label{oracao-final}
+
+Com o coração cheio de confiança, recorremos a vós, gloriosa Santa Brígida, para implorar,...
+
+\versicle. \quad Santa Brígida, intrépida no serviço de Deus, rogai por nós.
+
+\response. \quad Santa Brígida, admirável no amor de Jesus e Maria, rogai por nós.
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+\href{https://pocketterco.com.br/terco/novena-a-santa-brigida-inicia-em-14-de-julho}{Pocket Terço}\\ 
+\href{https://bibliotecacatolica.com.br/blog/formacao/santa-brigida/}{Minha Biblioteca Católica}
+\end{center}
+
+
+\end{document}

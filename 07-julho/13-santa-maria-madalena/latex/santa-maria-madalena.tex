@@ -1,0 +1,187 @@
+% Novena a Santa Maria Madalena
+\documentclass[a4paper,12pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{lmodern}
+\usepackage{indentfirst}
+\setlength{\parindent}{1.5em}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+
+% Centralizar títulos
+\titleformat{\section}{\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}. \quad}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}. \quad}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[LO,LE]{\includegraphics[scale=0.2]{assets/cross.png}\quad \textit{Novena a \textbf{Santa Maria Madalena}}}
+\fancyfoot[RO,RE]{\thepage}
+
+\renewcommand{\contentsname}{Sumário}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE Novena a Santa Maria Madalena}\\[0.5em]
+  “Se tem a coragem de imitar Maria Madalena em seus pecados, por que não tem a coragem de imitá-la em seu arrependimento?”\\
+  \textit{São Padre Pio a uma penitente}
+\end{center}
+
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+\section{Breve Biografia}
+Santa Maria Madalena, uma grande pecadora convertida, tornou-se seguidora de Cristo e é, desde os primeiros tempos, o exemplo clássico do pecador arrependido, sendo até uma das Padroeiras dos Dominicanos (Ordem dos Pregadores). É tradicionalmente identificada como a pecadora que ungiu os pés de Jesus Cristo na casa de Simão (Lucas 7:36 e seguintes) e tudo indica que seja Maria, irmã de Marta e de Lázaro.
+
+Segundo os Evangelhos, Jesus expulsou dela sete demónios (Marcos 16:9; Lucas 8:2); acompanhou e serviu o Senhor dos senhores na Galileia (Lucas 8:2), esteve presente na Crucificação (Mateus 27:56; Marcos 15:40; João 19:25), e, com Maria mãe de Tiago e Salomé, descobriu o túmulo vazio e ouviu o anúncio da Ressurreição feito por anjos (Mateus 28:1 e seguintes; Marcos 16:1–8; Lucas 24:1–10).
+
+Foi a primeira pessoa a ver Cristo ressuscitado nesse mesmo dia (Mateus 28:9; Marcos 16:9; João 20:1–18). O seu dia litúrgico celebra-se a 22 de julho, como tal, a Novena inicia-se a 13 de julho.
+
+\section{Perspetiva Mais Detalhada}
+As principais fontes sobre Santa Maria Madalena são o Novo Testamento e a Tradição. Nas artes, é frequentemente representada ao lado de Cristo na casa de Simão, aos pés da Cruz, ou sozinha com um vaso de óleo precioso e/ou um livro, símbolos do conhecimento adquirido de Jesus e de Maria. O seu nome completo provém da cidade de onde era originária, Magdala, próxima de Betânia, cuja localização hoje encontra-se em ruínas, com um nome ligeiramente alterado.
+
+Quando Jesus iniciou a sua pregação itinerante, deixou de ter residência fixa, sendo acolhido por amigos ou pessoas hospitaleiras. A casa de Marta, Maria (de Magdala) e do seu irmão Lázaro, em Betânia, a apenas cerca de três quilómetros de Jerusalém, era provavelmente o local onde mais se hospedava. Maria e a sua irmã eram profundamente devotas a Cristo e foi na sua casa que Ele passou os últimos dias antes da Paixão.
+
+No sábado anterior ao Domingo de Ramos, Santa Maria Madalena demonstrou total reverência ao Filho de Deus ao derramar nardo precioso sobre os pés de Jesus – um perfume cujo valor equivaleria a um ano de salário de um trabalhador comum. Este gesto não só expressou o seu arrependimento por uma vida passada de pecado, mas também prenunciou o sacrifício que Cristo faria pela salvação da humanidade poucos dias depois. Antes de ungir os pés de Jesus, Maria seguiu o costume da época para hóspedes honrados e ungiu-lhe primeiro a cabeça. Esta ação excecional foi inspirada pelo Espírito Santo e agradou ao Pai Celeste, tal como testemunhado pelas palavras de Jesus em Mateus 26:10–13.
+
+\section{Frutos da Devoção}
+Santa Gertrudes relata que Santa Maria Madalena disse a Santa Matilde:
+
+\begin{quote}
+“Aquele que der graças a Deus por todas as lágrimas que derramei sobre os pés de Jesus, o nosso Deus riquíssimo em misericórdia, esse alcançará, por minha intercessão, a remissão de todos os seus pecados antes da morte, bem como um grande aumento no amor a Deus.”
+\end{quote}
+
+\section{Oração a Nosso Senhor Jesus Cristo pelas Lágrimas}
+Ó dulcíssimo e misericordiosíssimo Jesus, dou-Vos graças pela piedosa obra que a bem-aventurada Maria Madalena realizou em Vós, quando Vos lavou os pés com as suas lágrimas, os enxugou com os cabelos da sua cabeça, os beijou e os ungiu com precioso unguento. Por esse acto de amor, Vos dignastes conceder-lhe tão insigne graça, que infundistes no seu coração e na sua alma um amor tão grande por Vós, que nada mais pôde amar senão a Vós.
+
+Suplico-Vos, por seus méritos e pela sua poderosa intercessão, que Vos digneis conceder-me lágrimas de verdadeira penitência, e derramar no meu coração o Vosso divino amor. \textbf{Amén.}
+
+(Rezar um Pai-Nosso, uma Avé-Maria e um Glória ao Pai.)
+
+\section{Oração Especialíssima a Santa Maria Madalena}
+\textit{Composta por Santo Anselmo, Bispo e Doutor da Igreja}
+
+Ó Santa Maria Madalena, vós que, com lágrimas vivas e contritas, vos aproximastes da Fonte da misericórdia, o Senhor Jesus Cristo, e por Ele fostes abundantemente saciada; vós a quem, pela mesma misericórdia, foram perdoados todos os pecados, e cujo coração amargurado foi consolado pela presença do Salvador.
+
+Ó gloriosa penitente, bem sabeis, por experiência própria, como pode uma alma pecadora reconciliar-se com o seu Criador, que conselho há-de receber a alma aflita, e que remédio pode restaurar o enfermo à graça da vida.
+
+Nós, humildes servos de Deus, reconhecemos em vós a grandeza daquele amor que alcança misericórdia, pois a quem muito foi perdoado, é porque muito amou.
+
+Ó bendita entre as mulheres, eu, o mais indigno dos pecadores, não recordo os vossos pecados como acusação, mas antes invoco a inesgotável misericórdia de Deus, pela qual eles foram totalmente apagados.
+
+Nisto repousa a minha esperança, para que não caia no desespero; nisto se acende o meu desejo, para que não pereça.
+
+Vejo-me, miserável e prostrado nas profundezas do vício, esmagado pelo peso das culpas, encerrado nas trevas do pecado. E por isso, vós que estais agora entre os eleitos de Deus, amada do Senhor, intercedei por mim que me encontro ainda em trevas; suplicai por aquele que vos invoca com Fé: alcançai-me luz na escuridão, redenção no pecado, pureza na impureza.
+
+Lembrai-vos com amor do que fostes, de quanto necessitastes da misericórdia divina; e pedi por mim, para que receba o mesmo perdão que vós recebestes. Sede minha advogada, e alcançai-me do Senhor lágrimas de sincero arrependimento, amor que fira o coração, desejo ardente pela pátria celeste, impaciência por este exílio terrestre, compunção verdadeira, e santo temor dos castigos eternos.
+
+Fazei uso da graça que vos foi concedida, e que ainda conservais junto da Fonte de toda a misericórdia.
+
+Atrai-me a Ele, para que, com lágrimas, lave os meus pecados; conduzi-me Àquele que pode saciar a minha alma sedenta; derramai sobre mim as águas vivas que restauram o coração ressequido. Nada vos será recusado por Aquele que tanto ama, e em quem tanto sois amada; Ele, que vive e reina para sempre, é vosso amigo e vosso Senhor.
+
+Quem poderá narrar, ó escolhida de Deus, com que amor Ele tomou a vossa defesa contra os que vos acusavam? Como vos justificou perante o fariseu arrogante; como vos exaltou diante da murmuração da vossa irmã; como louvou o vosso gesto de amor, desprezado por Judas?
+
+E sobretudo, quem poderá exprimir a veemência do vosso amor, quando chorastes no sepulcro, buscando o Senhor? Com que ternura Ele Se vos revelou, depois de Se ocultar para provar a vossa Fé? Como vos chamou pelo nome, com voz tão doce e familiar, dizendo: “Maria!” — e vós O reconhecestes como “Mestre!”
+
+Ó Senhor dulcíssimo, por que perguntas: “Mulher, por que choras?” Não vedes que o seu coração, vida da sua alma, estava ferido pela vossa ausência? Vós, que fostes pregado à Cruz por amor, permitistes que ela sofresse ainda por não encontrar sequer o vosso Corpo, e quisestes que, por entre lágrimas, se manifestasse a profundidade do seu amor.
+
+Mas não pudestes ocultar-Vos por muito tempo daquele coração inflamado por Vós. A força do Vosso amor venceu a dor das suas lágrimas, e manifestastes-Vos a ela com palavras de consolo e certeza: “Eis-Me aqui. Sou Eu a quem procuras.”
+
+Ó que mudança bendita de lágrimas! Se antes brotavam da dor, agora correm da alegria. A alma que dizia: “Levaram o meu Senhor, e não sei onde O puseram,” proclama agora: “Vi o Senhor, e Ele falou comigo.”
+
+E eu, pobre e sem caridade, como ouso falar do Vosso amor, Senhor, e do amor desta vossa fiel discípula? Mas Vós, que sois a própria Verdade, sabeis que o faço por amor do vosso Amor, ó meu dulcíssimo Jesus.
+
+Inflamai o meu coração com aquele amor que ordenais, para que só a Vós ame e me ofereça com espírito contrito, com coração arrependido e humilhado.
+
+Concedei-me, Senhor, neste exílio, o pão das lágrimas e da dor, que desejo mais do que qualquer prazer do mundo.
+
+Escutai-me, por amor do Vosso Amor, pelos méritos da vossa bem-amada Maria Madalena, e da vossa Santíssima Mãe, a Virgem Maria, Rainha dos céus.
+
+Redentor meu, não desprezeis a oração de quem pecou contra Vós, mas fortalecei os esforços do fraco que Vos ama.
+
+Despertai o meu coração da tibieza, Senhor, e, abrasado no Vosso amor, conduzi-me à visão eterna da vossa glória, onde, com o Pai e o Espírito Santo, viveis e reinais, Deus por todos os séculos dos séculos. \textbf{Ámen.}
+
+\section{Ladainha de Santa Maria Madalena}
+\begin{description}
+  \item \versicle \textbf{Senhor,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Jesus Cristo,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Senhor,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Jesus Cristo,} 
+  \item \response ouvi-nos.
+  \item \versicle \textbf{Jesus Cristo,} 
+  \item \response atendei-nos.
+  \item \versicle \textbf{Deus Pai do Céus,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Deus Filho,} 
+  \item \response Redentor do mundo, tende piedade de nós.
+  \item \versicle \textbf{Deus Espírito Santo,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Santíssima Trindade,} 
+  \item \response tende piedade de nós.
+  \item \versicle \textbf{Santa Maria,} 
+  \item \response Mãe de Deus, rogai por nós.
+  \item \versicle \textbf{Refúgio dos pecadores,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Rainha concebida sem pecado,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Santa Maria Madalena,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Irmã de Marta e Lázaro,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Vós que entrastes na casa do fariseu para ungir os pés de Jesus,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que lavastes os Seus pés com as vossas lágrimas,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que enxugastes com os vossos cabelos,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que cobristes de beijos,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que fostes defendida por Jesus diante do fariseu,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que d’Ele recebestes o perdão dos pecados,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Que das trevas fostes conduzida à luz,} 
+  \item \response rogai por nós.
+  \item \versicle \textbf{Apóstola dos Apóstolos,} 
+  \item \response rogai por nós.
+\end{description}
+
+\bigskip
+\textbf{Oração Final}
+\begin{quote}
+Ó meu Deus, seja o Vosso amor o único princípio da minha penitência. Que a dor do meu coração não tenha outra causa senão a de Vos ter ofendido, a Vós, Bem supremo, meu princípio e fim último. Fazei que as minhas lágrimas brotem de um coração ferido pelo vosso amor. Arrependo-me sinceramente do passado, e proponho firmemente nunca mais Vos ofender. Por intercessão de Santa Maria Madalena, concedei-me a graça da verdadeira conversão, da pureza de coração e do ardente amor com que ela Vos amou. Por Cristo Nosso Senhor. \textbf{Ámen.}
+\end{quote}
+
+\end{document}
