@@ -1,0 +1,141 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Santa Eufêmia}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\subsection*{Novena a Santa Eufêmia}
+
+\say{
+Quando abriram o sarcófago, viram o corpo de uma mulher muito bonita, que vestia um luxuoso vestido e junto dela, um pergaminho que dizia \textit{HOC EST CORPUS EUFEMIAE SANCTAE...}
+}
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{ Origens e Significado do Nome}
+
+Santa Eufémia é uma santa cristã cujas origens são profundamente enraizadas na tradição da Igreja Primitiva. Seu nome, de origem grega, significa "boa reputação" ou "benevolência", refletindo as qualidades que caracterizam sua vida e legado. Eufémia é conhecida por sua coragem e firmeza na fé durante um período de intensa perseguição aos cristãos. Seu culto se espalhou pela Igreja Oriental e Ocidental, e ela é comemorada principalmente no dia 16 de setembro.
+App Cruz Terra Santa
+
+\subsection{Vida e Martírio}
+
+Santa Eufémia viveu no início do século IV, durante o reinado do imperador romano Diocleciano, conhecido por sua feroz perseguição aos cristãos. Ela era uma jovem de grande virtude e fé inabalável, que se destacou por sua dedicação à vida cristã em uma época de severas dificuldades.
+De acordo com a tradição, Eufémia foi arrestada por se recusar a renunciar à sua fé em Cristo. Após suportar uma série de torturas físicas e mentais, ela foi finalmente martirizada. Sua coragem e firmeza perante o sofrimento a tornaram uma figura emblemática da resistência cristã. Seu testemunho de fé e sacrifício desempenhou um papel importante na edificação da Igreja em um período crítico.
+\subsection{Culto e Veneração}
+
+O culto a Santa Eufémia se estabeleceu principalmente na Igreja Oriental, onde ela é venerada como uma das grandes mártires da fé cristã. Sua história é celebrada em várias liturgias e o seu nome aparece em muitos martirológios e calendários cristãos. Em Constantinopla (atual Istambul), uma basílica foi construída em sua honra no século IV, o que atesta a importância de sua veneração.
+
+Sua festa é comemorada com solenidade em diversas tradições, e suas relíquias foram amplamente difundidas ao longo da história, contribuindo para a expansão do seu culto. Santa Eufémia é uma figura central em muitos escritos antigos, e seu legado continua a ser um símbolo de fé e perseverança para os cristãos.
+Milagres e Legado
+
+Ao longo dos séculos, a vida e o martírio de Santa Eufémia foram acompanhados de numerosos relatos de milagres. Um dos mais notáveis é a história de um sonho em que ela teria aparecido para um imperador, pedindo pela paz e pela proteção dos cristãos. Muitas curas e intervenções divinas foram atribuídas à sua intercessão, aumentando ainda mais sua veneração.
+
+Além dos milagres associados a ela, Santa Eufémia deixou um legado duradouro através do seu testemunho de fé. Sua vida e morte influenciaram a formação da Igreja e ajudaram a consolidar a prática do martírio cristão como uma forma de testemunho da fé.
+
+\subsection{Legado Espiritual}
+
+O impacto espiritual de Santa Eufémia vai além de sua história pessoal. Ela é uma figura de inspiração para todos os cristãos, especialmente aqueles que enfrentam adversidades por causa de sua fé. A sua vida exemplifica a coragem necessária para enfrentar perseguições e a determinação de manter a fé, mesmo diante de grandes desafios.
+
+Santa Eufémia continua a ser uma intercessora poderosa e uma fonte de inspiração espiritual. Seu culto é um lembrete constante da importância de se manter fiel à fé cristã, mesmo em tempos de dificuldade e provação.
+\subsection{Oração a Santa Eufémia}
+
+Ó Santa Eufémia, mártir valorosa e testemunha fiel da fé cristã, nós te pedimos que intercedas por nós diante de Deus. Que teu exemplo de coragem e devoção nos inspire a viver com a mesma firmeza e confiança em nossa jornada espiritual. Guia-nos em nossos desafios e fortalece nossa fé, para que possamos seguir o teu exemplo e servir a Deus com um coração sincero e resoluto.
+
+Amém.
+
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena a Santa Eufêmia}
+\subsection{Oração para Todos os Dias} \label{sec:oracao}
+
+Gloriosa Santa Eufêmia, com humildade e devoção vimos aos vossos pés render-vos as nossas homenagens e suplicar-vos que diante de Deus intercedais por nós a fim de que a nossa fraqueza se converta em força, a nossa doença se transforme em saúde, o nosso defeito se mude em virtude, a nossa tibieza se transforme em fervor pela imitação de vossa vida heroica que vos fez mártir na terra e feliz na eternidade.
+
+Milagrosa Santa Eufêmia, ajudai-nos a ser sempre verdadeiras testemunhas de Jesus Cristo, seguindo o exemplo do teu martírio e concedei-nos as graças que insistentemente vos pedimos (pedir a graça).
+
+
+\[
+  \textbf{Pai-Nosso, Ave-Maria, Glória ao Pai}
+\]
+
+\response.\quad Rogai por nós, Santa Eufêmia.
+
+\versicle.\quad Para que sejamos dignos das promessas de Cristo.
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://cruzterrasanta.com.br/historia-de-santa-eufemia/557/102/}{Cruz Terra Santa}}, \underline{\href{https://www.vaticannews.va/pt/santo-do-dia/09/03/s--gregorio-magno--papa-e-doutor-da-igreja.html}{Vatican News}}, e  \underline{\href{https://catholicnovenaprayer.com/st-gregory-the-great-novena-prayer/}{Catholic Novena Prayer}}.
+\end{center}
+
+\end{document}

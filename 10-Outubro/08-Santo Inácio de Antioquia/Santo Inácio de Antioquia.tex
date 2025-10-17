@@ -1,0 +1,207 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Santo Inácio de Antioquia}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\begin{center}
+  {\huge Novena a Santo Inácio de Antioquia}
+\end{center}
+
+Bispo e mártir, foi discípulo de São João e sagrado bispo por São Pedro e morto no Coliseu de Roma, devorado por leões.
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{História do Santo}
+
+Santo Inácio de Antioquia foi um dos grandes Padres da Igreja, e seu legado ressoa através dos séculos. Como bispo de Antioquia e defensor intrépido da fé, ele desempenhou um papel vital na construção da estrutura e da teologia da Igreja nascente. 
+
+Suas cartas e sua trajetória de vida revelam não apenas seu profundo comprometimento com Cristo, mas também seu papel no desenvolvimento da teologia pastoral da igreja primitiva. Neste artigo, você vai conhecer a vida e o legado deste grande santo, desde as suas origens até o seu martírio em Roma. 
+
+\subsection{Quem foi Santo Inácio de Antioquia?}
+\subsubsection{Origens}
+
+Santo Inácio de Antioquia nasceu por volta do ano 35 d.C. na cidade de Antioquia, localizada na antiga Síria. Algumas tradições sugerem que sua linhagem era de uma família de origem pagã, não romana. 1 No entanto, é notável que sua data de nascimento o coloque em um período extremamente próximo aos eventos centrais da fé cristã, ocorrendo apenas dois anos após a morte de Cristo, que é datada em 33 d.C.
+
+Antioquia, na antiga Síria, era a terceira maior metrópole do mundo antigo, ficando apenas atrás de Roma e Alexandria, no Egito. Durante esse período, a cidade desempenhou um papel de grande relevância nos primeiros anos do cristianismo, e é possível que Inácio tenha sido testemunha das pregações dos apóstolos ou dos primeiros missionários cristãos na região. Além disso, foi em Antioquia que os seguidores de Jesus foram chamados pela primeira vez de cristãos. 2
+
+Veja também: Tradição, Magistério e Sagrada Escritura
+\subsubsection{Conversão de Santo Inácio de Antioquia}
+
+Embora não haja muitos registros sobre a conversão de Santo Inácio, acredita-se que tenha sido de idade mais avançada e graças à pregação de São João Evangelista, quando este passava pela região. Em seguida, Inácio tornou-se discípulo de João e dedicou-se ao cristianismo de maneira apaixonada, buscando uma vida de serviço e liderança na igreja primitiva.
+
+Além disso, ele também teve o privilégio de conviver com alguns dos apóstolos, como São Paulo, o que lhe proporcionou uma compreensão profunda dos ensinamentos de Jesus e do cristianismo primitivo.
+
+Com o tempo, Inácio ascendeu ao episcopado, tornando-se bispo da cidade de Antioquia na Síria, onde continuou a ser um defensor zeloso da fé cristã e desempenhou um papel significativo na organização da igreja local. Aliás, é bastante provável que tenha sido o próprio apóstolo São Paulo que ordenou Inácio bispo de Antioquia.
+\subsubsection{Cartas}
+
+Santo Inácio de Antioquia escreveu sete cartas fundamentais no início do cristianismo. Elas são direcionadas a várias igrejas e indivíduos, incluindo as igrejas de Éfeso, Magnésia, Tralli, Roma, Filadélfia e Esmirna, bem como o Bispo Policarpo. O conteúdo dessas cartas reflete o contexto da igreja primitiva, destacando a importância da hierarquia eclesiástica, a unidade dos fiéis e a responsabilidade dos bispos, presbíteros e diáconos na construção da comunidade cristã.
+
+Bento XVI, um grande devoto de Santo Inácio de Antioquia, escreve sobre suas cartas: “Lendo estes textos sente-se o vigor da fé da geração que ainda tinha conhecido os Apóstolos. Sente-se também nestas cartas o amor fervoroso de um santo.” 3 Sem dúvida, estas cartas são valiosas relíquias da fé cristã primitiva.
+\subsubsection{Morte}
+
+Santo Inácio de Antioquia foi um grande mártir da fé católica. Ele foi condenado à morte pelo Império Romano, por volta do ano de 107 d.C., e lançado às feras no Coliseu. Neste artigo, dedicaremos um tópico, mais a frente, para falar do seu martírio.
+\subsection{As cartas: o principal empreendimento da vida de Santo Inácio de Antioquia}
+
+A seguir, apresentaremos as sete cartas de Santo Inácio: o tema principal e um trecho de cada uma delas.
+\subsubsection{Carta aos Efésios}
+
+Na Carta aos Efésios, Santo Inácio de Antioquia ressalta a vital importância da unidade na igreja e reforça a autoridade dos bispos como um elemento chave para mantê-la. Ele adverte veementemente contra divisões internas e exorta os membros da comunidade a obedecerem aos bispos como um meio fundamental de preservar essa unidade. A carta reflete sua visão da igreja como um corpo coeso, no qual a harmonia e a obediência à liderança episcopal são essenciais para a continuidade da fé cristã.
+
+Convém caminhar de acordo com o pensamento de vosso bispo, como já o fazeis. Vosso presbitério, de boa reputação e digno de Deus, está unido ao bispo, assim como as cordas à cítara. Por isso, no acordo de vossos sentimentos e na harmonia de vosso amor, vós podeis cantar a Jesus Cristo. A partir de cada um, que vos torneis um só coro, a fim de que, na harmonia de vosso acordo, tomando na unidade o tom de Deus, canteis a uma só voz […] 4
+\subsubsection{Carta aos Magnésios}
+
+A Carta aos Magnésios trata da relação entre o Antigo e o Novo Testamento, destacando a continuidade e o cumprimento das Escrituras antigas no cristianismo. Além disso, a carta aborda questões relacionadas à Eucaristia, enfatizando a importância de celebrar uma única Eucaristia sob a liderança do bispo. Santo Inácio enfatiza que essa unidade na celebração da Eucaristia é fundamental para a unidade da comunidade cristã e a preservação da fé. Dessa forma, a Carta aos Magnésios oferece ensinamentos valiosos sobre a teologia e as práticas da Igreja Primitiva.
+
+Não tenteis fazer passar por louvável coisa alguma que fizerdes sozinhos. Pelo contrário, reunidos em comum, haja uma só oração, uma só súplica, um só espírito, uma só esperança no amor, na alegria imaculada, que é Jesus Cristo: nada é melhor do que ele. Correi todos juntos como ao único templo de Deus, ao redor do único altar, em torno do único Jesus Cristo, que saiu do único Pai e que era único em si e para ele voltou. 5
+\subsubsection{Carta aos Tralianos}
+
+Na Carta aos Tralianos, Santo Inácio de Antioquia, exorta os cristãos a permanecerem fiéis à doutrina apostólica, bem como a evitar heresias, que minam a fé. Além disso, ele destaca a necessidade de manter a unidade da igreja, aconselhando contra divisões e cismas. Ele enfatiza que a harmonia e a adesão à autoridade episcopal são essenciais para a manutenção da fé e para a unidade da comunidade cristã.
+
+Assim, a Carta aos Tralianos oferece orientações valiosas, para os cristãos da época e para a compreensão histórica posterior, sobre como preservar a ortodoxia e a unidade dentro da Igreja Primitiva. Em suas saudações finais, ele diz: Todos, individualmente, amai-vos uns aos outros, de coração não dividido. Meu espírito se sacrifica por vós, não somente agora, mas também quando eu chegar a Deus. […] Que sejais encontrados nele sem reprovação. 6
+\subsubsection{Carta aos Romanos}
+
+A Carta de Santo Inácio aos Romanos revela seu profundo anseio pelo martírio em Roma, demonstrando sua alegria diante dessa perspectiva. Nessa carta, ele contempla a natureza do martírio como uma oportunidade de se unir mais intimamente a Cristo. O bispo de Antioquia compreende o martírio como um ato supremo de testemunho da fé, no qual ele se tornará um com Cristo na morte e na ressurreição.
+
+Para mim, é melhor morrer para Cristo Jesus do que ser rei até os confins da terra. Procuro aquele que morreu por nós; quero aquele que por nós ressuscitou. […] Deixai que seja imitador da paixão do meu Deus. 7
+
+Sua carta aos romanos é um testemunho emocionante de sua disposição para enfrentar o martírio e seu profundo amor pela fé cristã. Isso reforça também sua fé na importância da unidade da Igreja de Roma com as demais comunidades cristãs.
+\subsubsection{Carta aos Filadélfios}
+
+Na Carta aos Filadélfios, Santo Inácio coloca-se como um homem a quem foi confiada a tarefa da unidade. 8 “Para Inácio a unidade é antes de tudo uma prerrogativa de Deus […]”, afirma Bento XVI.
+
+Desse modo, esta carta destaca a relevância da oração e da obediência aos bispos como alicerces da vida cristã. Ele exorta os cristãos a permanecerem firmes na fé e a resistirem às falsas doutrinas que ameaçam a unidade da Igreja. Inácio enfatiza a importância da comunhão e da harmonia entre os membros da Igreja, destacando, mais uma vez, que a obediência aos bispos desempenha um papel fundamental na manutenção dessa unidade.
+
+Filhos da luz verdadeira, evitai as divisões e más doutrinas 9 […] Com efeito, todos aqueles que são de Deus e de Jesus Cristo, esses estão também com o bispo. Aqueles que, arrependendo-se, vierem para a unidade da Igreja, serão também de Deus, para que sejam vivos segundo Jesus Cristo. 10
+\subsubsection{Carta aos Esmirnenses}
+
+A Carta de Santo Inácio aos Esmirnenses é um apelo à unidade da Igreja sob a liderança do bispo local. Ele encoraja os cristãos de Esmirna a resistirem à perseguição e permanecerem fiéis à fé cristã. Inácio também aborda a ameaça dos hereges, destacando a importância de manter a doutrina apostólica intacta e evitar a influência de ensinamentos falsos.
+
+Onde aparece o bispo, aí esteja a multidão, do mesmo modo que onde está Jesus Cristo, aí está a Igreja católica. 11
+\subsubsection{Carta a Policarpo}
+
+A Carta a Policarpo é uma correspondência pessoal na qual Santo Inácio exorta Policarpo, o bispo de Esmirna, a permanecer firme na fé e a liderar a igreja com zelo. Inácio oferece conselhos sobre liderança eclesiástica e a importância de manter a unidade na fé. Ele enfatiza a necessidade de preservar a doutrina apostólica e resistir a influências heréticas.
+
+Suporta a todos no amor, como já o fazes. Cuida que as orações não cessem. Pede sabedoria maior do que essa que tens. Vigia com espírito vigilante. Fala a cada um em particular, conformando tua maneira à de Deus. Carrega as doenças de todos, como perfeito atleta. Onde o trabalho é maior, maior é o ganho. 12
+
+Essa carta destaca a relação próxima entre esses dois líderes da Igreja Primitiva e a importância de transmitir e proteger os ensinamentos apostólicos na continuidade da fé cristã.
+
+\subsection{O martírio de Santo Inácio de Antioquia}
+
+Santo Inácio de Antioquia enfrentou o martírio com coragem e determinação. Sua jornada em direção ao martírio começou quando o imperador Trajano iniciou uma perseguição aos cristãos. Como um bispo devoto e apaixonado, Inácio recusou-se a renunciar à sua fé em Cristo, o que levou à sua prisão e subsequente transporte acorrentado para Roma. 1
+
+O martírio de Inácio atingiu seu ápice no Coliseu de Roma, o Anfiteatro Flávio, onde ele foi lançado às feras e seu corpo despedaçado por elas, como parte das celebrações da vitória do imperador na Dácia. 1 Durante sua jornada, ele suportou torturas pelas mãos dos guardas. Mas mesmo diante do sofrimento, Inácio ansiava por “unir-se a Jesus Cristo” e, portanto, suplicou aos cristãos de Roma que não impedissem seu martírio.
+
+Bento XVI comenta que “nenhum padre da Igreja expressou com a intensidade de Inácio o anseio pela união com Cristo e pela vida n’Ele.” 3 Seu sacrifício ocorreu no mesmo período em que o quarto papa da igreja, Clemente I, também foi martirizado, marcando um momento de perseguição e testemunho da fé cristã em sua forma mais profunda.
+\subsection{A vida de Santo Inácio de Antioquia e seu legado}
+
+Santo Inácio de Antioquia, bispo e mártir do século II, deixou um legado significativo na história da Igreja Primitiva. Sua importância reside, sobretudo, em seus escritos, que lançam luz sobre a teologia pastoral, a organização eclesiástica e a vida da comunidade cristã em seu tempo. “Complexivamente podemos ver nas Cartas de Inácio uma espécie de dialéctica constante e fecunda entre dois aspectos característicos da vida cristã: por um lado a estrutura hierárquica da comunidade eclesial, e por outro a unidade fundamental que liga entre si todos os fiéis em Cristo.” 13
+
+Suas cartas destacaram a importância dos bispos como guardiões da fé e da unidade. Aliás, Inácio foi o primeiro na literatura cristã que atribuiu à Igreja o adjetivo “católica”, ou seja, “universal”, o que desempenhou um papel fundamental na compreensão da Igreja como uma comunhão global de fiéis sob a liderança dos bispos. Além disso, ele também foi pioneiro ao referir-se ao “Dia do Senhor” como o domingo, contribuindo para a transição do sábado para o domingo como o dia principal de adoração cristã, uma mudança que se consolidaria ao longo dos séculos.
+
+Portanto, Santo Inácio de Antioquia é uma figura de destaque na Patrística. A Patrística (derivada de “padres”, que vem de “pais”) abrange aproximadamente os primeiros sete séculos da história da Igreja, sendo um período em que grandes homens, entre eles Santo Inácio, foram pioneiros na formulação teológica e enfrentaram as grandes heresias de sua época, moldando e consolidando a doutrina de acordo com a transmissão apostólica. Santo Inácio está, portanto, entre os Padres Apostólicos, ou Padres da Igreja, cujos escritos contribuíram significativamente para o desenvolvimento do pensamento teológico nos primeiros séculos do Cristianismo.
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena a Santo Inácio de Antioquia}
+
+\subsection{Oração Inicial} \label{oracao-inicial}
+
+Ó glorioso Santo Inácio de Antioquia, portador do Cristo, vos agradecemos pelo ardente testemunho de fé que nos destes com o vosso Martírio, e por vossa intercessão por nós. Permanecei ao lado de quem sofre, de quem se sente só, do pobre, do desempregado. Consolai os enfermos, iluminai os ateus, aquecei o coração dos indiferentes, cuidai dos anciãos, rogai pelas famílias, guardai os jovens, protegei as crianças. Intercedei junto a Jesus, Nosso Senhor, de Quem recebemos o Seu amor infinito através de Sua Palavra e de Seus Sacramentos, para que nos alcance a graça de \textbf{(dizer a intenção)}.
+
+Rogai para que Deus conceda aos Sacerdotes a às famílias a graça de se manter sempre na Fé, na Esperança e na Caridade, para que o povo cristão seja sempre um testemunho autêntico de Seu Filho na nossa sociedade. 
+
+\subsection{Oração Final} \label{oracao-final}
+
+Santo Inácio, que no caminho para o martírio escreveste com coragem inabalável, intercede por nós para que, nas provações da vida, possamos seguir o caminho de Cristo sem vacilar. Ao enfrentar as feras no Coliseu, viste além do sofrimento terreno e enxergaste a glória eterna. Concede-nos a graça de, assim como tu, abraçarmos nossas cruzes diárias com serenidade, compreendendo que em cada desafio há uma oportunidade de nos unirmos mais profundamente ao Senhor.
+
+Dissipa nossos medos e fortalece nossa fé, para que, mesmo nas adversidades, possamos viver com alegria a esperança da ressurreição. Que tua entrega total inspire em nós um amor mais profundo por Deus, capaz de superar todas as tentações e adversidades. Concede-nos a coragem para testemunhar a fé com ousadia, assim como fizeste diante de teus algozes.
+
+Roga ao Senhor que nos conceda o espírito de humildade e confiança que tu possuíste, para que, em cada decisão, possamos escolher o caminho que nos conduz à verdadeira vida. Que sejamos dignos de partilhar contigo a alegria eterna no céu, onde todos os mártires, vitoriosos em Cristo, reinam para sempre. Amém.
+
+\begin{center}
+  Rezam-se 1 Pai Nosso, 3 Ave Marias, 1 Glória ao Pai.
+\end{center}
+
+\[
+\textbf{Santo Inácio de Antioquia, rogai por nós!}
+\]
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://bibliotecacatolica.com.br/blog/devocao/santo-inacio-de-antioquia/}{Minha Biblioteca Católica}} e \underline{\href{https://precantur.blogspot.com/2019/01/novena-ou-triduo-santo-inacio-de-antioquia.html}{Thesaurus Precantur}}.
+\end{center}
+
+
+\end{document}

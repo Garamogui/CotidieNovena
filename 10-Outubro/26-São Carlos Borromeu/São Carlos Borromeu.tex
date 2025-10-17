@@ -1,0 +1,344 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese, latin]{babel}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a "barrinha" inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{São Carlos Borromeu}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+\selectlanguage{portuguese}
+
+\begin{center}
+  {\huge Novena a São Carlos Borromeu}
+\end{center}
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{História}
+Das margens do Lago Maggiore pode-se ver a estátua de São Carlos Borromeu, que predomina sobre a cidadezinha de Arona: construída no século XVII, tem 35 metros de altura, incluindo sua base. A escultura em cobre e ferro representa o Arcebispo de Milão que abençoa. No entanto, o monumento tem uma particularidade: pode ser visitado por dentro, graças a uma longa escadaria. Quem consegue subir os numerosos degraus, pode admirar o mundo subjacente por meio de duas aberturas nos olhos de Borromeu. Nisto consiste o ensinamento deste Santo: olhar o mundo através dos seus olhos, isto é, através da sua caridade e humildade.
+\subsection{De ``bispo menino'' a ``gigante da santidade''}
+Primeiro, ``bispo-menino'', depois ``gigante da santidade''. A vida de São Carlos Borromeu desenvolveu-se sobre estes dois polos, em uma aceleração do tempo, proporcional à sua ação pastoral.
+De fato, o pequeno Carlos queimou as etapas: nasceu em 2 de outubro de 1538, em Arona, na nobre família Borromeu, sendo o segundo filho de Gilberto e Margarida. Com apenas 12 anos, recebeu o título de ``comendatário'' de uma abadia beneditina local. Seu título honorífico proporcionava-lhe uma renda considerável, mas o futuro Santo quis destinar seus bens à caridade dos pobres.
+\subsection{O Concílio de Trento}
+Carlos Borromeu estudou Direito Canônico e Direito Civil em Pavia. Em 1559, aos 21 anos, tornou-se Doutor in utroque jure.
+Poucos anos depois, faleceu seu irmão mais velho, Frederico. Muitos aconselharam Carlos a deixar o encargo eclesiástico para ser chefe de família. Ao invés, decidiu seguir sua vocação sacerdotal.
+Em 1563, aos 25 anos, foi ordenado sacerdote e, logo a seguir, consagrado Bispo, título que lhe permitiu participar das últimas etapas do Concílio de Trento (1562-1563). Assim, tornou-se um dos principais promotores da chamada ``Contra-reforma'' e colaborador na redação do ``Catecismo Tridentino''.
+\subsection{Arcebispo de Milão com apenas 27 anos}
+Colocando logo em prática as orientações do Concílio, que obrigava os Pastores a residir em suas respectivas dioceses, em 1565, com apenas 27 anos de idade, Carlos tomou posse da Arquidiocese de Milão como Arcebispo.
+A sua dedicação à Igreja ambrosiana foi total: fez três visitas pastorais em todo o território, dividindo-o em Circunscrições; fundou Seminários para ajudar a formação dos sacerdotes; mandou construir igrejas, escolas, colégios, hospitais; fundou a Congregação dos Oblatos, sacerdotes seculares; deu aos pobres toda a riqueza da sua família.
+\subsection{``Conquistar as almas de joelhos''}
+Carlos dedicou-se a uma profunda reforma da Igreja, começando por dentro. Em uma época bastante delicada para a cristandade, o ``menino-bispo'' não teve medo de defender a Igreja contra as ingerências dos poderosos e tampouco lhe faltou coragem para renovar as estruturas eclesiais, sancionando e corrigindo seus erros.
+Ciente de que a reforma da Igreja, para ser crível, tinha que começar pelos Pastores, Borromeu levou os sacerdotes, religiosos e diáconos a acreditar mais na força da oração e da penitência, transformando as suas vidas em um verdadeiro caminho de santidade. ``Almas -- repetia sempre -- devem ser conquistadas de joelhos''.
+\subsection{``Pastores devem ser servos de Deus e pais do povo''}
+A sua ação pastoral, profundamente animada pelo amor de Cristo, não lhe poupou hostilidades e resistências. Contra ele, os chamados ``Humilhados'' -- ordem religiosa com risco de desvios doutrinários -- organizaram um atentado, disparando em suas costas um tiro de mosquete, enquanto o futuro Santo estava recolhido em oração.
+O ataque falhou e Carlos continuou a sua missão, porque ``queria que os Pastores fossem servos de Deus e pais do povo, especialmente dos pobres'' (Papa Francisco em Audiência à Comunidade do Pontifício Seminário Lombardo em Roma, 25.01.2016).
+\subsection{A epidemia de Milão}
+Pelos anos `70 de 1500, abateu-se uma epidemia sobre Milão. A cidade sucumbiu diante da pestilência e da escassez, podendo contar somente com seu Arcebispo, que não poupou esforços: fiel ao seu lema episcopal, ``Humilitas'', entre 1576 e 1577 visitou, consolou e empregou todos os seus bens para ajudar os enfermos.
+Sua presença entre as pessoas foi tão constante que aquele período permaneceu nos anais da história como a ``praga da São Carlos''. Séculos depois, até Alessandro Manzoni comentou este fato em seu romance ``Os noivos''.
+\subsection{Peregrinação ao Sudário}
+O Arcebispo de Milão desempenhou também um papel fundamental para a vinda do Sudário à Itália. Por seu ardente desejo de rezar diante do Linho Sagrado, os duques de Savóia, em 1578, decidiram trasladar o Sudário de Cristo do Castelo de Chambéry, na França, para Turim, onde permaneceu até hoje. Borromeu foi para lá, em peregrinação a pé, caminhando por quatro dias, em jejum e oração.
+\subsection{A ``Urna'' na Catedral de Milão}
+O físico enfraquecido de Carlos Borromeu, devido aos muitos esforços, começou a ceder e se rendeu em novembro de 1584, vindo a falecer com apenas 46 anos, deixando, no entanto, uma imensa herança moral e espiritual.
+Carlos Borromeu foi beatificado em 1602, por Clemente VIII e, depois, canonizado em 1610, por Paulo V. Desde então, seus restos mortais descansam na Cripta da Catedral de Milão, no chamado ``Scurolo'' (urna), coberto com painéis de prata, que descrevem a sua vida.
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena}
+
+\subsection{Oração Inicial} \label{oracao-inicial}
+
+Ó Glorioso São Carlos Borromeu, que fostes na terra um modelo de santidade e zelo pastoral, nós vos invocamos com confiança. Vós que desprezastes as riquezas e honras do mundo para vos dedicardes inteiramente ao serviço de Deus e das almas, intercedei por nós junto ao Divino Salvador.
+
+Obtende-nos a graça de imitarmos vossas virtudes, especialmente vossa humildade, caridade e espírito de penitência. Ajudai-nos a viver como verdadeiros cristãos, sempre prontos a socorrer os necessitados e a trabalhar pela glória de Deus.
+
+Por vossa poderosa intercessão, alcançai-nos as graças de que necessitamos para nossa salvação eterna e para o bem das nossas almas. Amém.
+
+\subsection{Orações de cada dia}
+\subsubsection{Primeiro Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+Tua santidade, ó Glorioso São Carlos, foi anunciada ao mundo antes do teu feliz nascimento; visto que um esplendor incomum como um raio de sol apareceu acima de sua cama, iluminando as trevas. Foi uma indicação clara de que você iria ser grande na Igreja de Deus. E, portanto, peço-lhe humildemente que me obtenha do eterno Criador um raio de sua Divina Graça para iluminar minha mente e poder imitá-lo na piedade e na devoção.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Segundo Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+Considerando a vaidade e a efemeridade das coisas mundanas, Vós desprezastes, ó Glorioso São Carlos, ser um grande Príncipe secular; entregastes-vos a uma vida de maior austeridade; consagrastes-vos inteiramente a Deus tomando a ordem Sacerdotal; recusastes riquezas, honras, cargos desejáveis e proteções respeitáveis; ah, peço-vos, que ao refletir sobre as ilusões do Mundo, eu conceba um grande repúdio, e não pense em outra coisa senão na obtenção da salvação eterna.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Terceiro Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+A vossa caridade para com o próximo foi tão grande, ó Glorioso São Carlos, que não somente as portas do vosso Palácio estavam sempre abertas aos pobres e peregrinos, aos quais dáveis generosas esmolas; mas também vendestes a maior parte de vossos bens em benefício dos miseráveis, os quais acolhíeis sem distinção alguma com sinais de verdadeiro amor; inflamai-me, suplico, com um afeto igual pelo meu semelhante, para que eu possa imitar-vos aqui na terra e depois desfrutar da vossa companhia no Céu.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Quarto Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+Quão abstêmio você era, meu Glorioso São Carlos! Seus jejuns eram diários e austeros, suas penitências contínuas e rigorosas. Um áspero e duro cilício sempre cingia sua carne; e as disciplinas lhe rasgavam. As tábuas de sua cama eram desprovidas de colchão ou lençóis, e poucas horas eram suficientes para descansar seu corpo cansado. Ah, faça com que, apaixonado por tão bela virtude, eu me abstenha ao menos de cometer pecados, que tanto lhe desagradam e que tanto ofendem a Deus.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Quinto Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+O zeloso cuidado com o qual você sempre guardou seus sentidos, ó Glorioso São Carlos, foi por causa da Castidade. Desde a infância você soube evitar más companhias, práticas escandalosas e oportunidades de pecar. Você sempre amou a pureza dos costumes e a integridade do coração; Ah, conceda-me que, evitando os maus exemplos, eu sempre ame ser casto e puro aos olhos do seu e meu Senhor.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Sexto Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+Vós, Gloriosíssimo São Carlos, nascido de uma família distinta e nobre, fostes tão humilde que desprezastes todas as pompas e todas as honras. Vós quisestes não só vestir-vos modestamente, mas sempre evitastes os aplausos e os elogios que vos eram devidos. Com os pés descalços, com uma corda ao pescoço e com a Cruz sobre os ombros, fostes muitas vezes visto em procissão, oferecendo-vos ao Senhor pelos pecados dos outros. Ah, obtenha para mim uma humildade de espírito semelhante, para que, conhecendo-me a mim mesmo, aprenda finalmente a viver cristãmente.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Sétimo Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+A precisão com a qual sempre cumpristes vossos deveres é uma admirável virtude vossa, Glorioso São Carlos. Vós trabalhastes incessantemente pelo bem espiritual das almas confiadas a vós; não vos intimidastes com os esforços e os males; ao contrário, durante a horrível peste que devastou a vossa Milão, nunca cessastes de socorrer os pobres moribundos, administrando-lhes pessoalmente os Sagrados Sacramentos. Peço-vos que intercedais por mim junto ao Senhor, para que eu tenha pronta atividade no cumprimento dos deveres do meu estado.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Oitavo Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+A vossa doutrina e o vosso zelo, ó Gloriosíssimo São Carlos, foram um escudo impenetrável contra os ímpios profanadores da nossa santa Religião; e vós sempre, com inabalável constância e firmeza de espírito, conservastes intacta e estável a Fé Católica, que sempre pregastes, tanto por escrito quanto verbalmente. E, através de vós, foi concluído o Sagrado Concílio de Trento, que foi tão útil e vantajoso. Peço-vos uma constância semelhante e uma fé viva, para que eu nunca me deixe seduzir pelas lisonjas perversas dos ímpios.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\subsubsection{Nono Dia}
+Iniciar com a \textbf{\nameref{oracao-inicial}}
+
+A morte não vos assustou nem vos pegou de surpresa, ó Glorioso São Carlos, pois já estavas preparado para ela, tendo sempre pensado nela no Sacro Monte de Varallo. E quando ela chegou para cortar o fio de vossos preciosos dias, vós a esperastes com inabalável constância, pois estavas indo desfrutar a recompensa de vossas virtudes. Rogo-vos que obtenhais para mim a graça de viver bem para que possa, depois, morrer santamente.
+
+Finalizar com as \textbf{\nameref{oracao-final}}
+
+\newpage
+
+\subsection{Orações Finais} \label{oracao-final}
+\subsubsection{Ladainha de Nossa Senhora} \label{ladainha}
+
+\begin{center}
+\begin{longtable}{p{0.47\textwidth}|p{0.47\textwidth}}
+\hline
+\multicolumn{1}{c|}{\textbf{Latim}} & \multicolumn{1}{c}{\textbf{Português}} \\
+\hline
+\endhead
+\selectlanguage{latin} & \selectlanguage{portuguese} \\
+\versicle. \textit{Kýrie, eléison.} & \versicle. Senhor, tem piedade. \\
+\response. \textit{Kýrie, eléison.} & \response. Senhor, tem piedade. \\
+\versicle. \textit{Christe, eléison.} & \versicle. Cristo, tem piedade. \\
+\response. \textit{Christe, eléison.} & \response. Cristo, tem piedade. \\
+\versicle. \textit{Kýrie, eléison.} & \versicle. Senhor, tem piedade. \\
+\response. \textit{Kýrie, eléison.} & \response. Senhor, tem piedade. \\
+\versicle. \textit{Pater de c\ae{}lis, Deus,} & \versicle. Pai celeste, Deus, \\
+\response. \textit{miserére nobis.} & \response. tem piedade de nós. \\
+\versicle. \textit{Fili, Redémptor mundi, Deus,} & \versicle. Filho, Redentor do Mundo, Deus, \\
+\response. \textit{miserére nobis.} & tem piedade de nós. \\
+\versicle. \textit{Spíritus Sancte, Deus,} & \versicle. Espírito Santo, Deus, \\
+\response. \textit{miserére nobis.} & tem piedade de nós. \\
+\versicle. \textit{Sancta Trínitas, unus Deus,} & \versicle. Santíssima Trindade, um só Deus, \\
+\response. \textit{miserére nobis.} & \response. tem piedade de nós. \\
+\\
+\\
+\textit{Sancta Maria, ora pro nobis.} & Santa Maria, rogai por nós. \\
+\textit{Sancta Dei Génitrix, ora pro nobis.} & Santa Mãe de Deus, rogai por nós. \\
+\textit{Sancta Virgo vírginum, ora pro nobis.} & Santa Virgem das Virgens, rogai por nós. \\
+\textit{Mater Christi, ora pro nobis.} & Mãe de Cristo, rogai por nós. \\
+\textit{Mater Ecclési\ae{}, ora pro nobis.} & Mãe da Igreja, rogai por nós. \\
+\textit{Mater misericórdi\ae{}, ora pro nobis.} & Mãe de Misericórdia, rogai por nós. \\
+\textit{Mater divín\ae{} gráti\ae{}, ora pro nobis.} & Mãe da Divina Graça, rogai por nós. \\
+\textit{Mater spes, ora pro nobis.} & Mãe da Esperança, rogai por nós. \\
+\textit{Mater puríssima, ora pro nobis.} & Mãe Puríssima, rogai por nós. \\
+\textit{Mater castíssima, ora pro nobis.} & Mãe Castíssima, rogai por nós. \\
+\textit{Mater invioláta, ora pro nobis.} & Mãe Inviolada, rogai por nós. \\
+\textit{Mater intemerata, ora pro nobis.} & Mãe Imaculada, rogai por nós. \\
+\textit{Mater amábilis, ora pro nobis.} & Mãe Admirável, rogai por nós. \\
+\textit{Mater admirábilis, ora pro nobis.} & Mãe Admirável, rogai por nós. \\
+\textit{Mater boni consílii, ora pro nobis.} & Mãe do Bom Conselho, rogai por nós. \\
+\textit{Mater Creatóris, ora pro nobis.} & Mãe do Criador, rogai por nós. \\
+\textit{Mater Salvatóris, ora pro nobis.} & Mãe do Salvador, rogai por nós. \\
+\textit{Virgo prudentíssima, ora pro nobis.} & Virgem prudentíssima, rogai por nós. \\
+\textit{Virgo veneránda, ora pro nobis.} & Virgem venerável, rogai por nós. \\
+\textit{Virgo pr\ae{}dicánda, ora pro nobis.} & Virgem proclamada, rogai por nós. \\
+\textit{Virgo potens, ora pro nobis.} & Virgem poderosa, rogai por nós. \\
+\textit{Virgo clemens, ora pro nobis.} & Virgem clemente, rogai por nós. \\
+\textit{Virgo fidélis, ora pro nobis.} & Virgem fiel, rogai por nós. \\
+\textit{Spéculum iustíti\ae{}, ora pro nobis.} & Espelho da justiça, rogai por nós. \\
+\textit{Sedes sapiénti\ae{}, ora pro nobis.} & Sede da Sabedoria, rogai por nós. \\
+\textit{Causa nostr\ae{} l\ae{}titi\ae{}, ora pro nobis.} & Causa da nossa alegria, rogai por nós. \\
+\textit{Vas spirituále, ora pro nobis.} & Vaso espiritual, rogai por nós. \\
+\textit{Vas honorábile, ora pro nobis.} & Vaso honorífico, rogai por nós. \\
+\textit{Vas insígne devotiónis, ora pro nobis.} & Vaso insigne de devoção, rogai por nós. \\
+\textit{Rosa mystica, ora pro nobis.} & Rosa mística, rogai por nós. \\
+\textit{Turris davídica, ora pro nobis.} & Torre de Davi, rogai por nós. \\
+\textit{Turris ebúrnea, ora pro nobis.} & Torre de marfim, rogai por nós. \\
+\textit{Domus áurea, ora pro nobis.} & Casa de ouro, rogai por nós. \\
+\textit{Féderis arca, ora pro nobis.} & Arca da Aliança, rogai por nós. \\
+\textit{Iánua c\ae{}li, ora pro nobis.} & Porta do Céu, rogai por nós. \\
+\textit{Stella matutina, ora pro nobis.} & Estrela da manhã, rogai por nós. \\
+\textit{Salus infirmórum, ora pro nobis.} & Saúde dos enfermos, rogai por nós. \\
+\textit{Refúgium peccatórum, ora pro nobis.} & Refúgio dos pecadores, rogai por nós. \\
+\textit{Solácium Migrántium, ora pro nobis.} & Socorro dos migrantes, rogai por nós. \\
+\textit{Consolátrix afflictórum, ora pro nobis.} & Consolo dos aflitos, rogai por nós. \\
+\textit{Auxílium christianórum, ora pro nobis.} & Auxílio dos cristãos, rogai por nós. \\
+\textit{Regína angelórum, ora pro nobis.} & Rainha dos anjos, rogai por nós. \\
+\textit{Regína patriarchárum, ora pro nobis.} & Rainha dos patriarcas, rogai por nós. \\
+\textit{Regína prophetárum, ora pro nobis.} & Rainha dos profetas, rogai por nós. \\
+\textit{Regína apostolórum, ora pro nobis.} & Rainha dos apóstolos, rogai por nós. \\
+\textit{Regína mártyrum, ora pro nobis.} & Rainha dos mártires, rogai por nós. \\
+\textit{Regína confessórum, ora pro nobis.} & Rainha dos confessores, rogai por nós. \\
+\textit{Regína vírginum, ora pro nobis.} & Rainha das virgens, rogai por nós. \\
+\textit{Regínia sanctórum ómnium, ora pro nobis.} & Rainha de todos os santos, rogai por nós. \\
+\textit{Regína sine labe origináli concepta, ora pro nobis.} & Rainha concebida sem pecado original, rogai por nós. \\
+\textit{Regína in c\ae{}lum assumpta, ora pro nobis.} & Rainha assunta ao céu, rogai por nós. \\
+\textit{Regína sacratíssimi rosárii, ora pro nobis.} & Rainha do Sacratíssimo Rosário, rogai por nós. \\
+\textit{Regína famíli\ae{}, ora pro nobis.} & Rainha da família, rogai por nós. \\
+\textit{Regína pacis, ora pro nobis.} & Rainha da paz, rogai por nós. \\
+\\
+\\
+\versicle. \textit{Agnus Dei, qui tollis peccáta mundi,} & \versicle.  Cordeiro de Deus, que tira o pecado do mundo, \\
+\response. \textit{parce nobis, Dómine.} & \response. poupai-nos, Senhor. \\
+\versicle. \textit{Agnus Dei, qui tollis peccáta mundi,} & \versicle. Cordeiro de Deus, que tira o pecado do mundo, \\
+\response. \textit{exáudi nos, Dómine.} & \response. ouvi-nos, Senhor. \\
+\versicle. \textit{Agnus Dei, qui tollis peccáta mundi,} & \versicle. Cordeiro de Deus, que tira o pecado do mundo, \\
+\response. \textit{miserére nobis.} & \response. Tende piedade de nós. \\
+\versicle. \textit{Ora pro nobis, sancta Dei Génitrix,} & \versicle. Rogai por nós, Santa Mãe de Deus. \\
+\response. \textit{ut digni efficiámur promissiónibus Christi.} & \response. Para que sejamos dignos das promessas de Cristo. \\
+\multicolumn{2}{p{0.96\textwidth}}{} \\
+\textbf{Oremus:} \textit{Concede nos famulos tuos, quaesumus, Domine Deus, perpetua mentis et corporis sanitate gaudere; et gloriosa beatae Mariae semper Virginis intercessione, a praesenti liberari tristitia, et aeterna perfrui laetitia.} & \textbf{Oremos:} Concedei, pedimos, Senhor Deus, que gozemos de contínua saúde de mente e corpo; e, pela gloriosa intercessão da bem-aventurada Maria, sempre Virgem, sejamos libertados das tristezas presentes e alcancemos a eterna alegria. \\
+Per \textit{Christum Dominum nostrum. Amen.} & Por Cristo, nosso Senhor. Amém. \\
+\hline
+\end{longtable}
+\end{center}
+
+
+\begin{center}
+\subsubsection{Hino}
+\begin{longtable}{p{0.47\textwidth}|p{0.47\textwidth}}
+\hline
+\multicolumn{1}{c|}{\textbf{Latim}} & \multicolumn{1}{c}{\textbf{Português}} \\
+\hline
+\endhead
+\selectlanguage{latin} & \selectlanguage{portuguese} \\
+Iste confessor Domini colentes & Este confessor do Senhor que veneramos, \\
+Quem pie laudant populi per orbem: & A quem piedosamente louvam os povos por todo o mundo: \\
+Hac die l\ae{}tus meruit beatas & Neste dia alegremente mereceu ascender \\
+Scandere sedes. & Aos assentos abençoados. \\
+& \\
+Qui pius, prudens, humilis, pudicus, & Que foi piedoso, prudente, humilde, casto, \\
+Sobriam duxit sine labe vitam, & Conduziu uma vida sóbria sem mancha, \\
+Donec humanos animavit aur\ae{} & Até que o sopro da vida animou \\
+Spiritus artus. & Seus membros humanos. \\
+& \\
+Cuius ob pr\ae{}stans meritum frequenter, & Por seu mérito preeminente, frequentemente, \\
+\AE{}gra qu\ae{} passim iacuere membra, & Os membros que por toda parte jaziam doentes, \\
+Viribus morbi domitis, saluti & Com as forças da doença vencidas, a saúde \\
+Restituuntur. & é restituída. \\
+& \\
+Noster hinc illi chorus obsequentem & Daqui nosso coro para ele em reverência \\
+Concinit laudem, celebresque palmas; & Entoa louvores e celebrações merecidas; \\
+Ut piis eius precibus iuvemur & Para que por suas piedosas intercessões sejamos ajudados \\
+Omne per \ae{}vum. & Por toda a eternidade. \\
+& \\
+Sit salus illi, decus, atque virtus, & Seja a ele a salvação, honra e força, \\
+Qui super c\ae{}li solio coruscans, & Que resplandecendo acima do trono celestial, \\
+Totius mundi seriem gubernat & Governa toda a ordem do mundo, \\
+Trinus et unus. Amen. & Uno e Trino. Amém. \\
+& \\
+\versicle. Iste est qui contempsit vitam mundi, et pervenit ad caelestia regna. & \versicle. Este é aquele que desprezou a vida do mundo, e alcançou os reinos celestiais. \\
+\response. Ipse intercedat pro Peccatis omnium populorum. & \response. Que ele interceda pelos pecados de todos os povos. \\
+\hline
+\end{longtable}
+\end{center}
+
+
+ Guarda a tua Igreja, Senhor, com a contínua proteção de São Carlo, teu Confessor e Bispo; assim como sua preocupação pastoral o tornou glorioso, que sua intercessão nos faça sempre fervorosos em teu amor.
+
+\versicle.Por nosso Senhor Jesus Cristo, teu Filho, que contigo vive e reina na unidade do Espírito Santo, Deus, por todos os séculos dos séculos.
+
+\response. Amém!
+
+\[
+  \textbf{São Carlos Borromeu, rogai por nós!}
+\]
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://www.vaticannews.va/pt/santo-do-dia/11/04/s--carlos-borromeu--arcebispo-de-milao-e-cardeal.html}{Vatican News}} e \underline{\href{https://institutosaocarlos.com.br/novena-para-a-honra-e-gloria-de-sao-carlos-borromeu/}{Instituto São Carlos Borromeu}}.
+\end{center}
+
+\end{document}

@@ -1,0 +1,315 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Nossa Senhora da Defesa}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\begin{center}
+  {\huge Novena a Nossa Senhora da Defesa}
+\end{center}
+
+\say{
+Oh! Nossa Senhora da Defesa, virgem poderosa, recorro a Vossa proteção contra todos os assaltos do inimigo, pois Vós sois o terror das forças malignas. Eu seguro no Vosso manto santo e me refugio debaixo dele para estar guardado, seguro e protegido de todo mal. Mãe Santíssima, Refúgio dos pecadores, Vós recebestes de Deus o poder para esmagar a cabeça da serpente infernal e com a espada levantada afugentar os demônios que querem acorrentar os filhos de Deus. Curvado sobre o peso dos meus pecados venho pedir a Vossa proteção hoje e em cada dia da minha vida, para que vivendo na luz do vosso filho, Nosso Senhor Jesus Cristo eu possa depois desta caminhada terrena, entrar na pátria celeste. Amém!
+}
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{História da Devoção}
+
+Segundo o que se sabe, Nossa Senhora já tinha intervindo milagrosamente em Cortina d’Ampezzo em 512, segundo os relatos dessa época, os habitantes se reuniram e puseram-se a rezar suplicando a ajuda da Mãe de Deus, decididos foram defender seu território, infelizmente foi-se percebido a inevitável invasão lombarda, os ampezzanos invocaram o nome da Santa Mãe de Deus. Ela então teria aparecido, portando uma espada, sobre as nuvens que ali passava. Quando os lombardos tentaram invadir a cidade, Nossa Senhora teria envolvidos os seus inimigos com as nuvens impedindo-lhes a visão. Por estarem as cegas acabaram por lutar entre si até se derrotarem. Através dessa aparição surgiu a devoção de Nossa Senhora da Defesa.
+
+Nove séculos, precisamente no ano de 1412 ocorreu a sua segunda aparição: Em Cortina d’Ampezzo já havia uma capela dedicada a Nossa senhora da Defesa desde o século XIV, mas apenas em 1412, ocorreu novamente uma intervenção miraculosa da Virgem Maria. Novamente a cidade vinha sendo ameaçada por mais uma invasão, para piorar os seus habitantes estavam quase que desarmados, o inverno daquela ano foi muito rigoroso e os godos estavam para invadir a cidade. Assim como em sua primeira aparição os habitantes se puseram a rezar invocando o seu santo nome, os ampezzanos não tinham um treinamento militar qualificado para lidar com aquela situação, e nem mesmo outros recursos bélicos que fosse capaz de vencer um poderoso inimigo, a solução encontrada foi permanecer unido, em oração, esperando a interseção de Nossa Senhora.
+
+O exército Gogo logo impetrou o seu ataque, os habitantes unidos intensificaram as suas orações e rezar com fervor. Não durou muito, logo Nossa Senhora apareceu sobre as nuvens. dessa vez portando uma espada de fogo em sua mão direita e segurando o Menino Jesus com o braço esquerdo. Ela desceu sobre o local onde estava ocorrendo um terrível massacre. Assim como em sua primeira aparição novamente as nuvens se envolveram aos seus inimigos, os cegando e atordoando-os, confundidos passaram a guerrear contra si mesmos até que, por fim, os godos se destruíram. Os italianos salvos do perigo, agradecidos pela vitória e impressionados com o novo sinal milagroso de Nossa Senhora da Defesa passaram a festejar o ocorrido até os dias de hoje.
+
+A veneração a Nossa Senhora por meio desse título iniciou-se primeiramente na Catedral de Ozieri, em Sassari, na Itália, ainda nesta mesma região ela é a Padroeira da cidade de Stintino, onde se comemora e celebra a sua festa, em 18 de setembro, mas desde 1337 já havia devoção a Nossa Senhora da Defesa, principalmente por parte da Confraria dos Battuti (confraria de leigos católicos).
+
+Um Santuário em honra de Nossa da Defesa foi construído em 1750. em sua fachada, acima da porta principal, tem um quadro com uma pintura de Nossa Senhora da Defesa representando o milagre de 512, Em seu altar-mor se encontra sua imagem, considerada a mais antiga produzida no século XIV e é ricamente vestida e coroada. No dia 18 de setembro, é comum em seu santuário fazer uma procissão noturna a luz de velas, podendo ser por terra ou mar, reunindo milhares de devotos da Europa e do mundo. Na Catedral da cidade de Ozieri existe um altar para sua devoção até hoje. 
+
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena Nossa Senhora da Defesa}
+
+\subsection{1° Dia}
+
+Ó Santíssima Virgem Maria, que aparecestes de maneira milagrosa com a espada na mão, para defender os moradores de Ampezzano, nós vos suplicamos que venhais com vossa espada nos defender dos assaltantes e sequestradores, por todos os caminhos por onde nós andamos e dai-nos a graça de vivermos a palavra de Deus. Amém. 
+
+Pai Nosso... Ave Maria... Glória ao Pai... Salve Rainha...  
+
+Oração de N.S. da Defesa  (todos os dias)
+
+Óh! Nossa Senhora da Defesa, virgem poderosa, recorro a Vossa proteção contra todos os assaltos do inimigo, pois Vós sois o terror das forças malignas. Eu seguro no Vosso manto santo e me refugio debaixo dele para estar guardado, seguro e protegido de todo mal. Mãe Santíssima, Refúgio dos pecadores, Vós recebestes de Deus o poder para esmagar a cabeça da serpente infernal e com a espada levantada afugentar os demônios que querem acorrentar os filhos de Deus. Curvado sobre o peso dos meus pecados, venho pedir a Vossa proteção hoje e em cada dia da minha vida, para, que vivendo na luz do Vosso Divino Filho, Nosso Senhor Jesus Cristo eu possa depois desta caminhada terrena, entrar na pátria celeste. Amém!
+
+
+\subsection{2° Dia}
+
+Virgem Poderosa, nossa Mãe Celeste, nós Vos pedimos, defendei-nos contra todo tipo de violência que possa nos atingir, à nossa casa, à nossa família, e dai-nos a graça de vivermos em caridade. Amém. 
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{3° Dia}
+
+Ó Nossa Senhora da Defesa, Vós sois a defensora da juventude. Por isso, nós Vos pedimos que defendais nossos jovens contra o terror das drogas que estão destruindo lares, famílias e vidas, que são preciosas para a construção de um mundo melhor; também Vos pedimos que defendais a vida no ventre materno, inocente e indefesa, fomentando o amor dos pais ou as adoções, e dai-nos a graça de vivermos na esperança. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{4° Dia}
+
+Nossa Senhora, Mãe dos aflitos, socorrei-nos e defendei-nos contra o desemprego, contra a fome e a miséria nestes tempos tão difíceis e dai-nos a graça de vivermos cada dia na força do amor e do perdão. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{5° Dia}
+
+Nossa Senhora, refúgio dos pecadores, muitas vezes nos deixamos levar pela dúvida e nos enveredamos por caminhos que nos trazem sofrimentos e desilusões. A Vós recorremos para pedir a Vossa defesa contra toda incredulidade, indiferença e infidelidade que vier de encontro a nós e dai-nos a graça de perseverarmos nesta igreja Católica Apostólica Romana onde nascemos e cuja fé queremos sempre professar. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{6° Dia}
+
+Nossa Senhora da Defesa, saúde dos enfermos, nós nos colocamos aos Vossos pés para pedir Vossa defesa contra todos os males do corpo, males da mente e males do espírito. Pedimos a graça de vivermos confiantes na ação de Deus em nossas vidas. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{7° Dia}
+
+Ó Nossa Senhora da Defesa, Mãe de Deus e nossa Mãe, quantas vezes neste caminhar da vida terrena, nos sentimos atribulados por tantos problemas que chegam até nós por causa de forças negativas e malignas. Suplicamos vossa defesa contra toda inveja, vaidade e ódio que vier de encontro a nós, nossa casa, nosso trabalho e nossa família. Dai-nos a graça da fidelidade a Deus. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{8° Dia}
+
+Virgem Poderosa, nós nos colocamos na Vossa presença para implorar Vossa defesa contra as catástrofes que possam se abater sobre nós. Contamos com Vossa defesa e proteção para nós, nossa cidade, nosso País, para o mundo inteiro, e dai-nos a graça de aceitarmos a vontade de Deus em todas as situações. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{9° Dia}
+
+Nossa Senhora da Defesa, Rainha da Paz, humildemente vimos hoje clamar Vosso auxilio para que venhais em nossa defesa contra a guerra e destruição que ameaça a Humanidade e pedimos a graça de vivermos na união e na paz. Amém.
+
+Rezar a \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+
+
+\section{Oração Final} \label{oracao-final}
+\[
+  \textbf{Pai-Nosso, Ave-Maria, Glória Ao Pai.}
+\]
+
+\response. \quad Roga por nós, Santa Mãe de Deus!
+
+\versicle. \quad Para que nos tornemos dignos das promessas de Cristo. \\
+
+\textbf{Oremos:} Oh! Nossa Senhora da Defesa, Virgem poderosa, recorro à Vossa proteção contra todos os assaltos do inimigo, pois Vós sois o terror das forças malignas.  
+
+Eu seguro no Vosso manto santo e me refugio debaixo dele para estar guardado, seguro e protegido de todo mal.  
+
+Mãe Santíssima, Refúgio dos pecadores, Vós recebestes de Deus o poder para esmagar a cabeça da serpente infernal e com a espada levantada afugentar os demônios que querem acorrentar os filhos de Deus.  
+
+Curvado sobre o peso dos meus pecados, venho pedir a Vossa proteção hoje e em cada dia da minha vida, para que, vivendo na luz do Vosso Filho, Nosso Senhor Jesus Cristo, eu possa, depois desta caminhada terrena, entrar na Pátria Celeste. Amém!  
+
+
+\section{Ladainha} \label{ladainha}
+
+Nossa Senhora da Defesa, vós que sois o terror das forças malignas, 
+
+- Da inveja, vaidade e ódio, \textbf{defendei-nos.}
+
+- Do orgulho, soberba, vanglória e atrevimento,...
+
+- Da arrogância, presunção, cinismo e autossuficiência,...
+
+- Da hipocrisia, fingimento e deboche,...
+
+- Do egoísmo e ganância,...
+
+- Do preconceito, julgamento e discriminação,...
+
+- Da preguiça, acomodação, má vontade e omissão,...
+
+- Da derrota fracasso e desânimo,... 
+
+- Da depressão, aflição e desespero,...
+
+- Da prostração, alienação e indolência,...
+
+- Da autopiedade, da auto-rejeição e da auto-condenação,...
+
+- Dos complexos, da carência afetiva e emocional,...
+
+- Dos problemas de ordem sexual,...
+
+- Da superproteção e dependência emocional,...
+
+- Da adulação e idolatria a coisas e pessoas,...
+
+- Da dominação, ciúmes, posse, opressão e perseguição,...
+
+- Da murmuração e impaciência,...
+
+- Da rejeição, desprezo e abandono,... 
+
+- Do isolamento e timidez,...
+
+- Da solidão, melancolia e angústia,...
+
+- Do suicídio, desejo de morrer e confusão mental,...
+
+- Da culpa e falta de perdão,...
+
+- Da acusação, da quebra de segredo e da avareza,...
+
+- Da mentira, calúnia e falso testemunho,...
+
+- Da condenação, crueldade e fofoca,...
+
+- Da incoerência e escândalo,...
+
+- Da ingratidão, falsidade e cilada,...
+
+- Dos assaltos, sequestros, vandalismo, tráfico e drogas,...
+
+- Das catástrofes, calamidades e pestes,...
+
+- Da miséria, fome, dívidas e desemprego,...
+
+- Do medo, insegurança e maus pensamentos,...
+
+- Da preocupação exagerada, insônia e tensão nervosa,...
+
+- Do pânico, pavor e susto,...
+
+- Do exagero e descontrole,...
+
+- Da ansiedade e inquietação,...
+
+- Dos males físicos, psíquicos e espirituais,...
+
+- Das maldições de antepassados e malefícios,...
+
+- Das manias, taras e vícios,...
+
+- Da malícia, impureza e imoralidade,...
+
+- Da sedução, orgia e fornicação,...
+
+- Do adultério, prostituição e promiscuidade,...
+
+- Da compulsividade para ter, ser, poder, e prazer,...
+
+- Da compulsividade no jogo e dependência química,...
+
+- Da falsa oração, do ocultismo, dos objetos contaminados e superstição...
+
+- Da injustiça, revolta e frustração,...
+
+- Da destruição e desejo da vingança,...
+
+- Do assassinato e desejo da morte de alguém,...
+
+- Da revolta contra Deus,...
+
+- Da descrença, dúvida e falta de fé,...
+
+- Da incredulidade, da infidelidade e indiferença,...
+
+- Da desobediência, zombaria e gozação,...
+
+- Dos sacrilégios e blasfêmias,...
+
+- Da falta de respeito com as coisas de Deus,...
+
+- Da não aceitação de Jesus Cristo como nosso único “Senhor e Salvador”,...  
+
+\vspace{2em}
+
+\textbf{Oremos:} Concedei a Vossos servos, nós Vo-lo pedimos, Senhor Deus, que possamos sempre gozar da saúde da alma e do corpo e, pela gloriosa intercessão da bem-aventurada Virgem Maria, Nossa Senhora da Defesa, sejamos livres da tristeza e alcancemos a eterna alegria. Por Cristo Nosso Senhor. Amém.   
+
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://precantur.blogspot.com/2020/01/Nossa-Senhora-da-Defesa.html}{Thesaurus Precum}} e \underline{\href{https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Defesa}{Wikipédia}}
+\end{center}
+
+
+\end{document}

@@ -1,0 +1,372 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Maria Passa à Frente!}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\begin{center}
+  {\huge Novena Maria passa à frente}
+\end{center}
+
+\say{
+Maria, passa na frente e vai abrindo estradas, portas e portões, abrindo casas e corações.
+A Mãe indo à frente, os filhos estão protegidos e seguem seus passos. Ela leva todos os filhos sob sua proteção.}
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{História da devoção Maria passa na frente}
+
+A devoção conhecida como “Maria passa na frente” tem duas origens: uma recente e outra antiga. A origem recente dessa devoção está na história de fé vivida por Dennis Bourgerie, fundador da Associação Maria Porta do Céu. Ele estava em Paris, França, prestes a embarcar para o Brasil. Em sua bagagem, trazia um grande volume de material evangelizador e temia ser barrado na alfândega, por causa do enorme excesso de peso.
+
+Dennis partilhou com o pároco da Basílica do Sagrado Coração de Montmartre o seu desejo de trazer este belo material para o Brasil mas, também, sua enorme preocupação com a alfândega, conhecida por ser bastante rígida, não permitindo nenhum excesso. O padre lhe deu, então, um conselho: “chegando ao aeroporto, reze assim: Maria, passa na frente! E Ela cuidará de todo o material que você carrega para Jesus. Ela cuidará de todos os detalhes melhor do que você imagina. Ela é Mãe, mas é também a porteira. Ela abrirá o coração das pessoas e também as portas e os caminhos”. E acrescentou: “Eu mesmo faço isso várias vezes por dia. Como dia a oração: ‘a Mãe indo à frente os filhos estão protegidos’. Dennis sentiu no coração o desejo de colocar este conselho em prática e assim o fez. Ele conta que a confiança no Senhor através da intercessão de Maria fez com que as preocupações desaparecessem de seu coração. E, de fato, na alfândega, seu excesso de bagagem, foi perdoado sem explicação e o material de evangelização chegou ao Brasil sem problemas, fazendo um grande bem a muita gente.
+
+Em seu coração Dennis compreendeu que aquilo não tinha sido uma questão de mera “sorte”, mas, sim, uma questão de “família”. Tendo ele Maria como Mãe, podia contar com a intercessão dela, pois, o desejo da Mãe é que seu Filho, Jesus, seja cada vez mais conhecido e amado, para que vidas sejam salvas. Ele compreendeu que, quando precisamos de algo que é conforme a vontade de Deus, podemos contar com a intercessão poderosa da Mãe Celestial.
+
+Porém, a percepção de que “Maria passa na frente” é bem mais antiga na história da Igreja. Na verdade, remonta aos Evangelhos e ao livro dos Atos dos Apóstolos, escrito por São Lucas. A confiança dos seguidores de Jesus na intercessão de sua Mãe sempre foi viva desde o início da Igreja.
+
+Na passagem das Bodas de Caná, tão belamente descrita no Evangelho de São João (2, 1 ss) vemos que Maria percebe o problema e a necessidade dos noivos: o vinho da festa tinha acabado. Quando viu isso, ela “passou na frente”, coisa que não era comum para as mulheres naquele tempo e lugar. O que ela fez? Foi falar com os serventes e deu-lhes uma orientação que serve para toda a humanidade: “Fazei tudo o que Ele vos disser”. (Jo 2, 5) Os serventes acolheram o conselho e obedeceram. Assim, o milagre aconteceu. Eles encheram as talhas de água, como jesus mandou, e esta água foi transformada em vinho. Graças a Maria, que passou na frente, a festa continuou!
+
+Santa Maria estava também à frente no nascimento da Igreja, como vemos no livro dos Atos dos Apóstolos, capítulo 2. É o momento em que o Espírito Santo vem sobre os discípulos de Jesus em forma de línguas de fogo. Depois disso, aqueles discípulos, ou seja, alunos, se transformaram em Apóstolos, isto é, enviados em nome de Jesus. Assim, a Boa Nova do Evangelho começou a ser pregada por todas as nações e nunca mais parou. Maria exercia ali, naquele momento, um papel de liderança, “à frente” dos seguidores de Jesus, orientando-os e exortando-os a esperar que a promessa do Espírito Santo fosse cumprida. E assim aconteceu.
+
+Assim, sempre que pedirmos “Maria, passa na frente”, ela passará, mas colocará Jesus à frente, por sua intercessão de Mãe. Maria não quer nada para si. Quer tudo para Jesus. E ela sabe que, se permitirmos que ela passe à nossa frente, à frente de nossos problemas e dificuldades, quem estará realmente à frente é Jesus. Ele é o Bom Pastor, aquele que é o caminho e nos conduz para a vida plena, para a verdade e para a vida.
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena Maria Passa Na Frente}
+
+\subsection{Primeiro Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} da minha saúde!
+
+\say{Deus reuniu todas as águas e as chamou de ‘mar’. Reuniu todas as graças
+e as chamou de ‘Maria’!}
+
+---(São Luiz Maria Grignon de Montfort)
+
+\subsubsection*{Oração ao Espírito Santo}
+
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+
+Amém!
+
+\textbf{Palavra de Deus (Lc1, 26-38)}
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{Segundo Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} da minha vida!
+
+\say{São Bernardo diz que converteu mais almas por meio da Ave-Maria, do que através de todos os seus sermões}
+
+---(São João Maria Vianney).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Lc1, 39-56)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+\subsection{Terceiro Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} do meu trabalho!
+
+\say{Agradeçamos a Nossa Senhora, pois foi ela quem nos trouxe Jesus}
+
+---(São Pio de Pietrelcina).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Lc 2, 1-14)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{Quarto Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} das minhas finanças!
+
+\say{Jamais se ouviu dizer no mundo que alguém tenha recorrido com confiança
+a esta Mãe Celeste, sem que não tenha sido prontamente atendido}
+
+---(Dom Bosco).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Lc 2, 41-52)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+\subsection{Quinto Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} da minha família!
+
+\say{Deus depositou a plenitude de todo o bem em Maria, para que nisto conhecêssemos que tudo o que temos de esperança, graça e salvação, dela deriva até nós}
+
+---(São Boaventura).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Jo 19, 25-27)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{Sexto Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} da minha casa!
+
+\say{Como gostam os homens de que lhes recordem o seu parentesco com personagens da literatura, da política, do exército, da Igreja... Canta diante da Virgem Imaculada, recordando-Lhe: ‘Ave, Maria, Filha de Deus Pai; Ave, Maria, Mãe de Deus Filho; Ave, Maria, Esposa de Deus Espírito Santo... mais do que tu, só Deus}
+
+---(São Josemaria Escrivá).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Mt 12, 46-50)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+\subsection{Sétimo Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} dos meus afetos e relacionamentos!
+
+\say{A maior alegria que podemos dar a Maria Santíssima é a de levarmos
+Jesus Eucarístico no nosso peito}
+
+---(Santo Hilário).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Lc 2, 22-32)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+\subsection{Oitavo Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} da minha fé!
+
+\say{A maior alegria que podemos dar a Maria Santíssima é a de levarmos
+Jesus Eucarístico no nosso peito}
+
+---(Santo Hilário).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Ap 12, 1-5, 7-10)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+\subsection{Nono Dia}
+
+\noindent
+
+\textbf{MARIA PASSA À FRENTE} dos meus impossíveis
+
+\say{As orações de Maria junto à Majestade Divina têm mais poder do que as
+preces e a intercessão de todos os Anjos e Santos do Céu e da Terra}
+
+---(Santo Agostinho).
+
+\subsubsection*{Oração ao Espírito Santo}
+Vinde, Espírito Santo! Vinde, por meio da poderosa intercessão do
+Imaculado Coração de Maria, Vossa amadíssima Esposa e nossa Mãe.
+Amém!
+Palavra de Deus (Jo 2, 1-11)
+
+Rezar \textbf{\nameref{ladainha}} e \textbf{\nameref{oracao-final}}
+
+
+% --- Oração Final ---
+\newpage
+\section{Ladainha} \label{ladainha}
+
+Da minha vida, Maria passa à frente...
+
+Dos meus anseios e receios, Maria passa à frente...
+
+Das minhas intenções e necessidades, Maria passa à frente...
+
+Dos meus desejos e dos meus sentimentos, Maria passa à frente...
+
+Dos meus pensamentos e das minhas vontades, Maria passa à frente...
+
+Das minhas lembranças e da minha memória, Maria passa à frente...
+
+Da minha liberdade e das minhas posturas, Maria passa à frente...
+
+Das minhas atitudes e das minhas palavras, Maria passa à frente...
+
+Das minhas noites e dos meus dias, Maria passa à frente...
+
+De tudo que é importante para mim, Maria passa à frente...
+
+Do que sinto, de como estou e do que preciso, Maria passa à frente...
+
+Do que me sobra e do que me falta, Maria passa à frente...
+
+De tudo aquilo que já fiz, Maria passa à frente...
+
+De tudo que ainda me resta fazer e ser, Maria passa à frente...
+
+Da minha luta contra o pecado, Maria passa à frente...
+
+Da minha vocação à santidade, Maria passa à frente...
+
+Do meu passado, presente e futuro, Maria passa à frente...
+
+\section{Oração Final} \label{oracao-final}
+Maria passa na frente e vai abrindo estradas e caminhos.
+
+Abrindo portas e portões.
+
+Abrindo casas e corações.
+
+A Mãe vai na frente e os filhos protegidos seguem seus passos.
+
+Maria, passa na frente e resolve tudo aquilo que somos incapazes de resolver.
+Mãe, cuida de tudo o que não está ao nosso alcance.
+
+Tu tens poder para isso!
+
+Mãe, vai acalmando, serenando e tranquilizando os corações.
+
+Termina com o ódio, os rancores, as mágoas e as maldições.
+
+Tira teus filhos da perdição!
+
+Maria, tu és Mãe e também a porteira.
+
+Vai abrindo o coração das pessoas e as portas pelo caminho.
+
+Maria, eu te peço: PASSA NA FRENTE!
+
+Vai conduzindo, ajudando e curando os filhos que necessitam de ti.
+
+Ninguém foi decepcionado por ti depois de ter te invocado e pedido a tua proteção.
+
+\newpage
+
+\[
+  \textbf{Pai-Nosso, Ave-Maria, Glória Ao Pai.}
+\]
+
+\response. \quad Roga por nós, Santa Mãe de Deus!
+
+\versicle. \quad Para que nos tornemos dignos das promessas de Cristo. \\
+
+\textbf{Oremos:} Ó Deus, que pela imagem milagrosa de tua Mãe em Sinj mostraste o poder salvador de teu amor, faze-nos dignos de amá-la sinceramente e, por sua intercessão, chegar a ti, que vives e reinas pelos séculos dos séculos. Amém!
+
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://www.miliciadaimaculada.org.br/espiritualidade/nossa-senhora/novena-maria-passa-na-frente}{Cruz Terra Santa}}
+\end{center}
+
+
+\end{document}
+
+
+

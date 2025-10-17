@@ -1,0 +1,157 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{São Gregório Magno}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\subsection*{Novena a São Gregório Magno}
+
+\say{
+Se não podeis deixar as coisas do mundo, fazei uso delas de tal modo que não vos prendam a ele, possuindo os bens terrenos sem deixar que vos possuam. 
+}
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{Origem da Devoção}
+
+Gregório nasceu em Roma, no ano 540, em uma família patrícia, conhecida como Anici, de grande fé cristã, que prestou muitos serviços à Sé Apostólica. Seus pais, Gordiano e Silvia – que a Igreja venera como santa em 3 de novembro – transmitiram-lhes nobres valores evangélicos, mediante seu grande exemplo.
+
+Após seus estudos de Direito, Gregório empreendeu a carreira política e ocupou o cargo de prefeito da cidade de Roma. Esta experiência o amadureceu e o levou a ter uma maior visão da cidade, as suas problemáticas e um profundo senso da ordem e da disciplina. Alguns anos depois, atraído pela vida monacal, decidiu retirar-se da política, deu seus bens aos pobres e fez da sua vila paterna, no bairro do Celio, um mosteiro dedicado a Santo André. Ali, dedicou-se à oração, ao recolhimento, ao estudo da Sagrada Escritura e dos Padres da Igreja.
+
+\subsection{De monge a Papa}
+
+O Papa Pelágio II nomeou Gregório diácono e o enviou a Constantinopla como seu Representante Apostólico, onde permaneceu seis anos. Além de desempenhar as funções diplomáticas, que o Pontífice lhe havia confiado, continuou a viver como monge com outros religiosos.
+
+Convocado novamente a Roma, voltou ao Celio. Com a morte do Papa Pelágio II, no ano 590, foi eleito seu Sucessor. Gregório teve que enfrentar um período difícil: corrupção dos Lombardos; abundantes chuvas e inundações, que provocaram numerosas vítimas e grandes prejuízos; a escassez atingiu diversas regiões da Itália; a epidemia da peste, que continuava a causar vítimas.
+
+Então, Gregório exortou os fiéis a fazer penitência e rezar e a tomar parte de uma solene procissão penitencial, de três dias, à Basílica de Santa Maria Maior. Narra-se que, ao atravessarem a ponte, que liga a área do Vaticano, no centro da cidade, - hoje chamada Ponte Santo Anjo – Gregório e a multidão tiveram a visão do arcanjo Miguel sobre a “Mole Adriana”, que foi interpretada como sinal celeste, que anunciava o fim da epidemia. Daqui, o costume de chamar o antigo mausoléu de Castelo Santo Anjo.
+
+\subsection{Obra eclesiástica e civil}
+
+Ocupando a Cátedra de Pedro, Gregório reorganizou a administração pontifícia e cuidou da Cúria Romana, onde tantos eclesiásticos e leigos tinham interesses bem diferentes daqueles espirituais e caritativos. Assim, confiou a sua direção aos monges Beneditinos. Reviu ainda as atividades eclesiásticas, nas várias sedes episcopais, estabelecendo que os bens da Igreja fossem utilizados para a própria subsistência e em prol da obra evangelizadora no mundo. Tais bens deviam ser administrados com absoluta retidão, justiça e misericórdia.
+
+Gregório ofereceu seus próprios bens e testamento à Igreja para ajudar os fiéis; comprou e distribuiu-lhes trigo; socorreu os necessitados; sustentou os sacerdotes, monges e claustrais em dificuldade; arcou com resgastes de prisioneiros; trabalhou por armistícios e tréguas.
+
+Deve-se a ele também as táticas políticas para salvar Roma – esquecida pelos imperadores – e os tratados com os Lombardos para assegurar a paz na Itália central; estabeleceu relações de fraternidade com eles e se preocupou pela sua conversão; enfim, organizou missões de evangelização entre os Visigodos da Espanha, os Francos e os Saxões. Enviou à Bretanha o prior do convento de Santo André no Celio, Agostinho – que depois se tornou Bispo de Cantuária – e quarenta monges.
+
+\subsection{“Servus servorum Dei”}
+
+O Papa Gregório I reformou ainda a celebração da Missa, tornando-a mais simples; promoveu o canto litúrgico, que recebeu o nome de gregoriano, e escreveu diversas obras. Seu epistolário conta mais de 880 cartas e muitas homilias. Algumas de suas obras famosas: “Magna Moralia in Iob” (comentário moral sobre o livro de Jó), onde afirma que o ideal moral consiste em uma harmoniosa integração entre palavra e ação, pensamento e compromisso, oração e dedicação aos próprios deveres; “Regula Pastoralis”, que traça a figura de um Bispo ideal, insistindo sobre o dever do pastor de reconhecer, todos os dias, a sua miséria, e, por fim, dedica o último capítulo ao tema da humildade.
+
+Para demonstrar que a santidade é sempre possível, Gregório redigiu o livro intitulado Diálogos, um texto hagiográfico, onde cita exemplos, deixados por homens e mulheres, canonizados ou não, acompanhados de reflexões teológicas e místicas. Muito conhecido é seu “segundo livro” sobre São Bento de Núrsia.
+
+Poder-se-ia dizer que Gregório tenha sido o primeiro Papa a utilizar o poder temporal da Igreja, sem deixar de lado o aspecto espiritual do seu ofício. No entanto, permaneceu sempre um homem simples, tanto que, nas suas Cartas oficiais, se define “Servus servorum Dei” (“Servo dos servos de Deus”), um apelativo que os Pontífices mantiveram no tempo.
+
+São Gregório Magno morreu em 12 de março de 604 e foi sepultado na Basílica de São Pedro.
+
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena a São Gregório Magno}
+\subsection{Oração para Todos os Dias} \label{sec:oracao}
+
+Gregório Magno, líder e pastor dedicado, hoje te invocamos para que inspires nossos corações a viver com a mesma humildade e zelo com que conduziste a Igreja. Durante teu papado, enfrentaste desafios enormes e promoveste reformas significativas na liturgia, como a organização do canto que hoje conhecemos como canto gregoriano.
+
+Rogamos que nos concedas a sabedoria e a visão para discernir a vontade de Deus em nossas vidas. Assim como tu, que foste um verdadeiro pastor do povo de Deus, ajuda-nos a viver nossa fé com integridade e a servir com generosidade. Tua vida foi um testemunho de serviço incansável e compaixão pelos necessitados, e pedimos tua intercessão para que possamos seguir teu exemplo em nosso cotidiano.
+
+Inspira-nos a viver de acordo com os ensinamentos do Evangelho, promovendo a justiça e a paz em nossas comunidades. Que possamos acolher os pobres e aflitos com a mesma compaixão que demonstraste, sendo verdadeiros instrumentos de amor e misericórdia.
+
+Ó Deus, nosso Pai, glorifica aqui na terra o teu servo, São Gregório
+ Magno, mostrando-nos o poder da sua intercessão na concessão das 
+graças que agora peço: \textbf{(Mencione aqui o seu pedido...)}
+
+Querido São Gregório, seu coração estava sempre cheio de amor, compaixão e misericórdia 
+para com os necessitados. Obtenha graciosamente para mim de Deus a assistência 
+e as graças de que tanto preciso na minha vida. Ajude-me a viver e morrer como um 
+filho fiel de Deus e a alcançar a felicidade eterna do céu.
+
+
+\[
+  \textbf{Pai-Nosso, Ave-Maria, Glória ao Pai}
+\]
+
+\response.\quad Rogai por nós, São Gregório Magno.
+
+\versicle.\quad Para que sejamos dignos das promessas de Cristo.
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://cruzterrasanta.com.br/oracao-terco-de-sao-gregorio-magno/259/105/}{Cruz Terra Santa}}, \underline{\href{https://www.vaticannews.va/pt/santo-do-dia/09/03/s--gregorio-magno--papa-e-doutor-da-igreja.html}{Vatican News}}, e  \underline{\href{https://catholicnovenaprayer.com/st-gregory-the-great-novena-prayer/}{Catholic Novena Prayer}}.
+\end{center}
+
+
+\end{document}
+
+
+

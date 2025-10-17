@@ -1,0 +1,294 @@
+\documentclass[a4paper,14pt]{extarticle} \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+
+% Fonte Caladea se existir, senão lmodern
+\IfFileExists{caladea.sty}{
+  \usepackage{caladea}
+}{
+  \usepackage{lmodern} }
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage{titlesec}
+\usepackage{epigraph}
+\usepackage{dirtytalk}
+\usepackage{indentfirst} % Indenta o primeiro parágrafo após seções
+
+% Ajuste do recuo de parágrafo
+\setlength{\parindent}{1.5em}
+
+% Centralizar títulos
+\titleformat{\section}
+  {\normalfont\centering\bfseries\Large}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\centering\bfseries\large}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\centering\bfseries}{\thesubsubsection}{1em}{}
+
+% -------------- Símbolos de Versículo e Resposta --------------
+% Definição do símbolo (a “barrinha” inclinada)
+\makeatletter
+\newcommand{\vers@resp@sym}{%
+  \raisebox{0.2ex}{\rotatebox[origin=c]{-20}{$\m@th\rceil$}}%
+}
+% macro interna que sobrepõe a barrinha e a letra V ou R
+\newcommand{\vers@resp}[2]{%
+  {\ooalign{%
+     \hidewidth\kern#1\vers@resp@sym\hidewidth\cr
+     #2\cr
+  }}%
+}
+% comandos públicos \versicle e \response
+\DeclareRobustCommand{\versicle}{\vers@resp{-0.1em}{V}}
+\DeclareRobustCommand{\response}{\vers@resp{0pt}{R}}
+\makeatother
+% ^------------- Símbolos de Versículo e Resposta -------------^
+
+% Rodapé com imagem e página
+\pagestyle{fancy}
+% ---- Cabeçalho ------------
+\fancyhf[C]{}
+% ----- Rodapé --------------
+\fancyfoot[LO,LE]{%
+  \includegraphics[scale=0.2]{assets/cross.png}\quad
+  \textit{Novena a \textbf{Todos os Santos}}
+}
+\fancyfoot[RO,RE]{\thepage}
+
+\begin{document}
+
+
+\begin{center}
+  {\huge Novena a Todos os Santos}
+\end{center}
+
+Bispo e mártir, foi discípulo de São João e sagrado bispo por São Pedro e morto no Coliseu de Roma, devorado por leões.
+
+\par\noindent\rule{\textwidth}{0.4pt}
+
+\tableofcontents
+\thispagestyle{empty}
+
+% --- Vida / Origem da Novena ---
+\newpage
+
+\section{História da Devoção}
+
+A Igreja que, no decurso do ano, celebra incessantemente as festas dos santos, reúne-os todos numa festa comum. Além dos que pode chamar pelo seu nome, ela evoca, numa visão grandiosa, a multidão inumerável dos outros “de todas as nações, tribos, povos e línguas, de pé diante do trono e diante do Cordeiro, vestidos com túnicas brancas e de palmas na mão”, aclamando Aquele que os resgatou com o Seu Sangue.
+
+A festa de Todos os Santos deve suscitar em nós uma imensa esperança. Dentre os santos do Céu há os que nós conhecemos. Todos viveram na Terra uma vida semelhante à nossa. Batizados, marcados com o sinal da fé, fiéis aos ensinamentos de Cristo, eles precederam-nos na pátria celeste e nos convidam a ir ter consigo. Ao proclamar a sua felicidade, o Evangelho das bem-aventuranças nos indica a rota seguinte: só ela nos pode conduzir até lá.
+
+De acordo com o ensinamento católico, há três estados na Igreja: a Igreja militante, a Igreja padecente e a Igreja triunfante. Somos a Igreja militante, pois ainda estamos vivendo e participando do combate espiritual aqui na Terra; a Igreja padecente são aquelas almas que estão no Purgatório, sendo purificados a fim de se tornarem dignos de adentrarem no Céu; a Igreja triunfante, enfim, são aqueles que já estão no Céu. É esta última que celebramos no Dia de Todos os Santos e cuja intercessão frequentemente buscamos nessas novenas, pois são aqueles que já contemplam Deus face a face.
+
+O Dia de Todos os Santos é celebrado em 1º de novembro, o dia seguinte ao Halloween, o que não é mera coincidência, uma vez que a origem do nome em inglês é véspera de todos os santos (\textit{All Hallow’s Eve}).
+
+Muitos santos canonizados possuem o seu dia próprio de comemoração, mas no Dia de Todos os Santos os celebramos todos, tanto os conhecidos como os desconhecidos por nós, que ainda estamos na Terra. Conforme celebramos todos aqueles que estão no Céu, recordemos que somos chamados a nos unirmos a eles.
+
+% --- Orações Diárias ---
+\newpage
+
+\section{Novena a Todos os Santos}
+
+\subsection{Orações de Cada Dia}
+\subsubsection{1º dia}
+
+Ó Santa Maria, Mãe de Deus e Mãe da Igreja, mostrais que és Mãe e me guieis em direção à uma vida de santidade, para que eu possa unir-me a vós e vosso Filho no Céu por toda a eternidade. 
+Intercedeis por mim, para que eu seja um aprendiz de sua humildade e pureza. Levais, vos peço, as minhas petições ao vosso Filho. (\textbf{Mencionar intenções}).\\
+
+Maria, concebida sem pecado, \textbf{rogai por nós.}
+
+Maria Santíssima, \textbf{rogai por nós.}
+
+Maria puríssima, \textbf{rogai por nós.}
+
+Maria, Estrela do Mar, \textbf{rogai por nós.}
+
+Maria, Rainha do Céu e da Terra, \textbf{rogai por nós.}
+
+Maria, Rainha dos Anjos e Santos, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+
+\subsubsection{2º dia}
+
+Ó santos anjos, fiéis servidores de Deus desde antes de o mundo ser formado, protegei-nos e guiai-nos em nossas vidas cotidianas, de modo que possamos crescer em santidade.
+
+Intercedeis por mim, para que eu cresça na fortaleza de sempre seguir a Deus, como vós fizestes. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Miguel, \textbf{rogai por nós.}
+
+S. Gabriel, \textbf{rogai por nós.}
+
+S. Rafael, \textbf{rogai por nós.}
+
+Anjos da guarda, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{3º dia}
+
+Ó santos Apóstolos, fostes os primeiros chamados por Jesus para O seguirem, e a demonstrardes o que significa ser discípulo de Cristo.
+
+Intercedeis por mim, para que melhor me disponha ao Espírito que recebestes em Pentecostes, de modo que anseie por crescer como discípulo de Cristo. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Pedro, \textbf{rogai por nós.}
+
+S. André, \textbf{rogai por nós.}
+
+S. Tiago, \textbf{rogai por nós.}
+
+S. João, \textbf{rogai por nós.}
+
+S. Filipe, \textbf{rogai por nós.}
+
+S. Judas Tadeu, \textbf{rogai por nós.}
+
+S. Bartolomeu, \textbf{rogai por nós.}
+
+S. Tomé, \textbf{rogai por nós.}
+
+S. Tiago, \textbf{rogai por nós.}
+
+S. Mateus, \textbf{rogai por nós.}
+
+S. Simão, \textbf{rogai por nós.}
+
+S. Matias, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{4º dia}
+
+Ó santos mártires, morrestes pela fé como fiéis servidores de Deus; agradeço-vos pela coragem e sacrifício que tornaram possível ao Evangelho chegar até mim.
+
+Intercedeis por mim, para que eu cresça em coragem e fé, de modo que possa me manter firme na minha devoção a Deus mesmo diante a morte. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Paulo, \textbf{rogai por nós.}
+
+Ss. Perpétua e Felicidade, \textbf{rogai por nós.}
+
+S. Policarpo, \textbf{rogai por nós.}
+
+S. Maximiliano Kolbe, \textbf{rogai por nós.}
+
+S. Maria Goretti, \textbf{rogai por nós.}
+
+Santos inocentes, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{5º dia}
+
+Ó santos místicos, passastes a vida em união com Deus pela oração contemplativa e devoção, sois os modelos da santificação pelo tesouro da oração.
+
+Intercedeis por mim, para que eu cresça em perseverança na oração contemplativa. Leveis, vos peço, as minhas petições a Deus.(\textbf{Mencionar intenções}).\\
+
+S. Teresa de Ávila, \textbf{rogai por nós.}
+
+S. Catarina de Sena, \textbf{rogai por nós.}
+
+S. João da Cruz, \textbf{rogai por nós.}
+
+S. Francisco de Sales, \textbf{rogai por nós.}
+
+S. Faustina, \textbf{rogai por nós.}
+
+S. Padre Pio, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{6º dia}
+
+Ó santos Doutores da Igreja, com vossas obras enriquecestes e esclarecestes os ensinamentos da Igreja; usastes dos vossos dons de conhecimento, sabedoria e articulação para preservardes a verdade da Igreja ao longo da história.
+
+Intercedeis por mim, de modo que eu use os dons que Deus me deu para trazer aqueles que eu encontro para mais perto de Cristo. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Ambrósio, \textbf{rogai por nós.}
+
+S. Agostinho, \textbf{rogai por nós.}
+
+S. Gregório Magno, \textbf{rogai por nós.}
+
+S. Jerônimo, \textbf{rogai por nós.}
+
+S. Tomás de Aquino, \textbf{rogai por nós.}
+
+S. Teresa de Lisieux, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{7º dia}
+
+Ó santos servos de Deus, resplandecestes em santidade pela vossa genuína humildade, e abraçastes vossa identidade como instrumentos de Deus.
+
+Intercedeis por mim, para que eu me esvazie de mim mesmo e seja purificado, de modo a ser um vaso consagrado ao trabalho de Deus. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Bernadette, \textbf{rogai por nós.}
+
+S. Teresa de Lisieux, \textbf{rogai por nós.}
+
+S. José de Cupertino, \textbf{rogai por nós.}
+
+S. Juan Diego, \textbf{rogai por nós.}
+
+Ss. Francisco e Jacinta de Jesus Marto, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+\subsubsection{8º dia}
+
+Ó santos sacerdotes, monges e freiras, dedicastes vossas vidas ao serviço de Deus e Sua Igreja pelos votos religiosos, e fostes os pés e as mãos de Deus na Terra.
+
+Intercedeis por mim, para que eu tenha uma crescente devoção e desejo de frequentar os sacramentos. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Bento, \textbf{rogai por nós.}
+
+S. Domingos, \textbf{rogai por nós.}
+
+S. Inácio de Loyola, \textbf{rogai por nós.}
+
+S. Clara de Assis, \textbf{rogai por nós.}
+
+S. Francisco de Assis, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+
+\subsubsection{9º dia}
+
+Ó santos que durante a vida na Terra foram casados, prefigurastes com vosso matrimônio as bodas no Céu, e soubestes crescer em santidade no meio das alegrias e tristezas da vida matrimonial e familiar.
+
+Intercedeis por mim, para que eu possa reconhecer, no curso ordinário da vida, o dom extraordinário da família. Leveis, vos peço, as minhas petições a Deus. (\textbf{Mencionar intenções}).\\
+
+S. Maria e S. José, pais de Jesus, \textbf{rogai por nós.}
+
+S. Ana e S. Joaquim, pais da Santíssima Virgem Maria, \textbf{rogai por nós.}
+
+S. Isabel e S. Zacarias, pais de S. João Batista, \textbf{rogai por nós.}
+
+S. Zélia e S. Luís Martin, pais de S. Teresa de Lisieux, \textbf{rogai por nós.}
+
+S. Nona e S. Gregório, o Velho, pais de S. Gorgonia, S. Cesáreo e S. Gregório Nazianzeno, \textbf{rogai por nós.}
+
+Amém. Rezar a \nameref{oracao-final}
+
+\subsection{Oração Final} \label{oracao-final}
+
+\begin{center}
+  Rezam-se 1 Pai Nosso, 3 Ave Marias, 1 Glória ao Pai.
+\end{center}
+
+\[
+\textbf{Todos os Santos, \textbf{rogai por nós!}}
+\]
+
+\vfill
+
+\begin{center}
+\subsection*{Fontes:}
+Adaptado de: \underline{\href{https://bibliotecacatolica.com.br/blog/novenas/novena-de-todos-os-santos/}{Minha Biblioteca Católica}}.
+\end{center}
+
+
+\end{document}
